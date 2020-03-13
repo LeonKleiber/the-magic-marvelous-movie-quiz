@@ -1,0 +1,39 @@
+{
+  "Home": {
+    "btnStart": "Start",
+    "btnSettings": "Einstellungen"
+  },
+  "Settings": {
+    "darkModePnl": {
+      "lblTitle": "Dunkel:",
+      "tbDarkMode": {
+        "lblOff": "Aus",
+        "lblOn": "An"
+      }
+    },
+    "pnlLanguage": {
+      "lblTitle": "Sprache:"
+    },
+    "btnSubmit": "Ok"
+  },
+  "Config": {
+    "pnlTopic": {
+      "lblTitle": "Themen"
+    },
+    "pnlDifficulty": {
+      "lblTitle": "Schwierigkeit",
+      "easy": "Einfach",
+      "medium": "Mittel",
+      "hard": "Schwer"
+    },
+    "btnSubmit": "Ok"
+  },
+  "Question": {
+    "btnNext": "Nächste Frage",
+    "btnNextResult": "Resultat anschauen"
+  },
+  "Result": {
+    "btnRestart": "Neustart"
+
+  }
+}

@@ -1,0 +1,1464 @@
+{
+    "de":[
+    {
+        "level": 1,
+        "question": "Wie heisst Harry's bester Freund?",
+        "options": [
+            {
+                "choice": "Ron",
+                "correct": true
+            },
+            {
+                "choice": "Dean",
+                "correct": false
+            },
+            {
+                "choice": "Neville",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "In welchem Haus ist Harry?",
+        "options": [
+            {
+                "choice": "Griffindor",
+                "correct": true
+            },
+            {
+                "choice": "Ravenclaw",
+                "correct": false
+            },
+            {
+                "choice": "Slytherin",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Wie heisst die Familie bei der Harry aufgefachsen ist?",
+        "options": [
+            {
+                "choice": "Dursley",
+                "correct": true
+            },
+            {
+                "choice": "Figgs",
+                "correct": false
+            },
+            {
+                "choice": "Finnigan",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Wer war nicht Gründer von Hogwarts",
+        "options": [
+            {
+                "choice": "Albus Dumbledore",
+                "correct": true
+            },
+            {
+                "choice": "Rowena Ravenclaw",
+                "correct": false
+            },
+            {
+                "choice": "Helga Hufflepuff",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Wie kam Dobby frei?",
+        "options": [
+            {
+                "choice": "Lucius Malfoy gab ihm ausversehen eine Socke",
+                "correct": true
+            },
+            {
+                "choice": "Lucius Malfoy setzte ihn im Wald aus",
+                "correct": false
+            },
+            {
+                "choice": "Er kam nie frei",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Was bewirkt der Trank Felix Felicis?",
+        "options": [
+            {
+                "choice": "Er bringt Glück",
+                "correct": true
+            },
+            {
+                "choice": "Er ist der stärste Liebestrank",
+                "correct": false
+            },
+            {
+                "choice": "Er tötet alles lebende",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Was kann Harry, dass die meisten Magier nicht können?",
+        "options": [
+            {
+                "choice": "Mit Schlangen reden",
+                "correct": true
+            },
+            {
+                "choice": "Einen Ausgewachsenen Patronus erschaffen",
+                "correct": false
+            },
+            {
+                "choice": "Sterben",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Was war Voldemorts richtiger Name?",
+        "options": [
+            {
+                "choice": "Tom Vorlost Riddle",
+                "correct": true
+            },
+            {
+                "choice": "Tom Vulfirc Riddle",
+                "correct": false
+            },
+            {
+                "choice": "Voldemort",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Was war kein Horkrux?",
+        "options": [
+            {
+                "choice": "Das Schwert von Griffindor",
+                "correct": true
+            },
+            {
+                "choice": "Das Diadem von Ravenclaw",
+                "correct": false
+            },
+            {
+                "choice": "Der Becher von Hufflepuff",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Wie viele Spieler sind während eines Quidditchspieles auf dem Feld?",
+        "options": [
+            {
+                "choice": "14",
+                "correct": true
+            },
+            {
+                "choice": "10",
+                "correct": false
+            },
+            {
+                "choice": "12",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Welches Tier wollte Hagrid schon immer als Haustier?",
+        "options": [
+            {
+                "choice": "Einen Drachen",
+                "correct": true
+            },
+            {
+                "choice": "Ein Hippogreif",
+                "correct": false
+            },
+            {
+                "choice": "Eine Agromantulla",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Wer schenkte Harry den Feurblitz?",
+        "options": [
+            {
+                "choice": "Sirius Black",
+                "correct": true
+            },
+            {
+                "choice": "Minerva McGonagall",
+                "correct": false
+            },
+            {
+                "choice": "Remus Lupin",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Was schnitt sich Wurmschwanz ab um den dunklen Lord wiederzubeleben?",
+        "options": [
+            {
+                "choice": "Rechte Hand",
+                "correct": true
+            },
+            {
+                "choice": "Linke Hand",
+                "correct": false
+            },
+            {
+                "choice": "Rechtes Ohr",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Mit wem wollte Harry ürsprünglich im 4. Teil an den Weinachtsball?",
+        "options": [
+            {
+                "choice": "Cho Chang",
+                "correct": true
+            },
+            {
+                "choice": "Ginny Weasley",
+                "correct": false
+            },
+            {
+                "choice": "Hermine Granger",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Was ist der Name von Dumbledore's Phönix?",
+        "options": [
+            {
+                "choice": "Fawkes",
+                "correct": true
+            },
+            {
+                "choice": "Seidenschalbel",
+                "correct": false
+            },
+            {
+                "choice": "Frank",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Wer war nie Harry's Lehrer in Verteidigung gegen Verteidigung gegen die dunklen Künste?",
+        "options": [
+            {
+                "choice": "Moody",
+                "correct": true
+            },
+            {
+                "choice": "Snape",
+                "correct": false
+            },
+            {
+                "choice": "Quirell",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Was ist ein Bezoar?",
+        "options": [
+            {
+                "choice": "Ein Stein aus dem Magen einer Ziege",
+                "correct": true
+            },
+            {
+                "choice": "Das Bult eines Einhorns im festen Zustand",
+                "correct": false
+            },
+            {
+                "choice": "Ein Zahn eines Mantikors",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Als was war Slughorn getarnt als Harry ihn zum ersten mal traf?",
+        "options": [
+            {
+                "choice": "Sessel",
+                "correct": true
+            },
+            {
+                "choice": "Sofa",
+                "correct": false
+            },
+            {
+                "choice": "Tisch",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Was passierte mit Neville's Elteren?",
+        "options": [
+            {
+                "choice": "Sie wurde in den Wahnsinn gefoltert",
+                "correct": true
+            },
+            {
+                "choice": "Sie wurden getötet",
+                "correct": false
+            },
+            {
+                "choice": "Sie stehen seit meheren Jahren unter dem Imperio-Fluch",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Welches Tierwesen ist verrükt nach gläntzenden Gegenständer?",
+        "options": [
+            {
+                "choice": "Niffler",
+                "correct": true
+            },
+            {
+                "choice": "Murtlap",
+                "correct": false
+            },
+            {
+                "choice": "Doxy",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Wer war Frank Bryce?",
+        "options": [
+            {
+                "choice": "Der Gärtner der Riddels",
+                "correct": true
+            },
+            {
+                "choice": "Dumbledore's bester Freund",
+                "correct": false
+            },
+            {
+                "choice": "Der erste Besitzer des Tarnumhangs",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Woher kom der Wasserdämon Kappa?",
+        "options": [
+            {
+                "choice": "Japan",
+                "correct": true
+            },
+            {
+                "choice": "China",
+                "correct": false
+            },
+            {
+                "choice": "Deutschland",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Wer ist Professor für Astronomie in Hogwarts?",
+        "options": [
+            {
+                "choice": "Aurora Sinestra",
+                "correct": true
+            },
+            {
+                "choice": "Septima Vector",
+                "correct": false
+            },
+            {
+                "choice": "Charity Burbage",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Wie lautet Newt Scamander's vollständiger Name?",
+        "options": [
+            {
+                "choice": "Newton Artemis Fido Lurch Scamander",
+                "correct": true
+            },
+            {
+                "choice": "Newton Fido Lurch Brain Scamander",
+                "correct": false
+            },
+            {
+                "choice": "Newton Lurch Fido Jacob Scamander",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Wer züchtete Knallrümpfige Kröter aus Feurkrabben und Mantikoren?",
+        "options": [
+            {
+                "choice": "Rebus Hagrid",
+                "correct": true
+            },
+            {
+                "choice": "Newt Scamander",
+                "correct": false
+            },
+            {
+                "choice": "Gellert Grindelwald",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Wer war Minister nach Pius Thicknesse?",
+        "options": [
+            {
+                "choice": "Kingsley Shacklebolt",
+                "correct": true
+            },
+            {
+                "choice": "Cornelius Fudge",
+                "correct": false
+            },
+            {
+                "choice": "Hermine Granger",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Welcher Art von Drache half Harry, Ron und Hermine von Gringotts zu fliehen?",
+        "options": [
+            {
+                "choice": "Ukrainischer Eisenbauch",
+                "correct": true
+            },
+            {
+                "choice": "Norwegischer Stachelbuckel",
+                "correct": false
+            },
+            {
+                "choice": "Rumänisches Langhorn",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Welches dieser Fächer hat nicht mit dem vorhersagen der Zukunft zu tun?",
+        "options": [
+            {
+                "choice": "Alchemie",
+                "correct": true
+            },
+            {
+                "choice": "Wahrsagen",
+                "correct": false
+            },
+            {
+                "choice": "Arithmantik",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Welches Tierwesen ist der Magische Dodo?",
+        "options": [
+            {
+                "choice": "Diricawl",
+                "correct": true
+            },
+            {
+                "choice": "Re'em",
+                "correct": false
+            },
+            {
+                "choice": "Bundimun",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Gegen welchen Drachen kämpfte Cedric?",
+        "options": [
+            {
+                "choice": "Schwedischer Kurzschnäuzler",
+                "correct": true
+            },
+            {
+                "choice": "Chinesischer Feurerball",
+                "correct": false
+            },
+            {
+                "choice": "Ungarischer Hornschwanz",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Welches ist die tiefste ZM-Klassifizierung bezüglich Tierwesen?",
+        "options": [
+            {
+                "choice": "X Langweilig",
+                "correct": true
+            },
+            {
+                "choice": "X Harmlos/kann zum Haustier abgerichtet werden",
+                "correct": false
+            },
+            {
+                "choice": "X Einfach zu bändigen",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Was macht der mittlere Kopf einer Runespoor?",
+        "options": [
+            {
+                "choice": "Träumen",
+                "correct": true
+            },
+            {
+                "choice": "Denken",
+                "correct": false
+            },
+            {
+                "choice": "Kritisieren",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Was sollte man mit einem Aschwinderinen Ei machen?",
+        "options": [
+            {
+                "choice": "Einfrieren",
+                "correct": true
+            },
+            {
+                "choice": "Essen",
+                "correct": false
+            },
+            {
+                "choice": "Zerstören",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Wie heisst die Frau von Aragog?",
+        "options": [
+            {
+                "choice": "Mosag",
+                "correct": true
+            },
+            {
+                "choice": "Noson",
+                "correct": false
+            },
+            {
+                "choice": "Dogog",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Was ist der einige nützliche Zauber gegen ein Lethifold?",
+        "options": [
+            {
+                "choice": "Expecto Patronum",
+                "correct": true
+            },
+            {
+                "choice": "Avada Kedavra",
+                "correct": false
+            },
+            {
+                "choice": "Lumos Maxima",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Was ist wohl das gefährlichste Tierwesen?",
+        "options": [
+            {
+                "choice": "Nundu",
+                "correct": true
+            },
+            {
+                "choice": "Chimära",
+                "correct": false
+            },
+            {
+                "choice": "Mantikor",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Welche Form hat das Nest eines Auguery?",
+        "options": [
+            {
+                "choice": "Träne",
+                "correct": true
+            },
+            {
+                "choice": "Herz",
+                "correct": false
+            },
+            {
+                "choice": "Auge",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Wie heisst der Vorgänger von Hagrid?",
+        "options": [
+            {
+                "choice": "Ogg",
+                "correct": true
+            },
+            {
+                "choice": "Nogg",
+                "correct": false
+            },
+            {
+                "choice": "Fogg",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Was ist keine Zutat des Vielsafttranks?",
+        "options": [
+            {
+                "choice": "Gemahlenes Horn eines Einhorns",
+                "correct": true
+            },
+            {
+                "choice": "Blutegel",
+                "correct": false
+            },
+            {
+                "choice": "Kleingeschnittene Baumschlangenhaut",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "In welchem Regal befand sich die Prophezeiung?",
+        "options": [
+            {
+                "choice": "97",
+                "correct": true
+            },
+            {
+                "choice": "89",
+                "correct": false
+            },
+            {
+                "choice": "73",
+                "correct": false
+            }
+        ]
+    }
+],
+    "en":[
+    {
+        "level": 1,
+        "question": "What's Harry's best friend's name?",
+        "options": [
+            {
+                "choice": "Ron",
+                "correct": true
+            },
+            {
+                "choice": "Dean",
+                "correct": false
+            },
+            {
+                "choice": "Neville",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "What's the name of the family Harry's raised?",
+        "options": [
+            {
+                "choice": "Dursley",
+                "correct": true
+            },
+            {
+                "choice": "Figg",
+                "correct": false
+            },
+            {
+                "choice": "Finnigan",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "What house is Harry in?",
+        "options": [
+            {
+                "choice": "Griffindor",
+                "correct": true
+            },
+            {
+                "choice": "Ravenclaw",
+                "correct": false
+            },
+            {
+                "choice": "Slytherin",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Who wasn't a founder of Hogwarts?",
+        "options": [
+            {
+                "choice": "Albus Dumbledore",
+                "correct": true
+            },
+            {
+                "choice": "Rovena Ravenclaw",
+                "correct": false
+            },
+            {
+                "choice": "Helga Hufflepuff",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "How did Dobby get a free elf?",
+        "options": [
+            {
+                "choice": "Lucius Malfoy accidentally gave him a sock",
+                "correct": true
+            },
+            {
+                "choice": "Lucius Malfoy abandoned him in the forest",
+                "correct": false
+            },
+            {
+                "choice": "He never got out",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "What does the potion Felix Felicis do?",
+        "options": [
+            {
+                "choice": "It brings luck",
+                "correct": true
+            },
+            {
+                "choice": "It's the strongest love potion",
+                "correct": false
+            },
+            {
+                "choice": "It kills everything living",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "What can Harry do that most magicians can't?",
+        "options": [
+            {
+                "choice": "Talk to snakes",
+                "correct": true
+            },
+            {
+                "choice": "Create an adult patronus",
+                "correct": false
+            },
+            {
+                "choice": "Die",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "What was Voldemort's real name?",
+        "options": [
+            {
+                "choice": "Tom Marvolo Riddle",
+                "correct": true
+            },
+            {
+                "choice": "Tom Wulfirc Riddle",
+                "correct": false
+            },
+            {
+                "choice": "Voldemort",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "How many players are on the field during a Quidditch game?",
+        "options": [
+            {
+                "choice": "14",
+                "correct": true
+            },
+            {
+                "choice": "10",
+                "correct": false
+            },
+            {
+                "choice": "12",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "What's not a Horkrux?",
+        "options": [
+            {
+                "choice": "Sword of Godric Gryffindor",
+                "correct": true
+            },
+            {
+                "choice": "Helga Hufflepuff's Cup",
+                "correct": false
+            },
+            {
+                "choice": "Rowena Ravenclaw's Diadem",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "What animal has Hagrid ever wanted as a pet?",
+        "options": [
+            {
+                "choice": "Dragon",
+                "correct": true
+            },
+            {
+                "choice": "Hippogrif",
+                "correct": false
+            },
+            {
+                "choice": "Agromantulla",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Who gave Harry the Firebolt?",
+        "options": [
+            {
+                "choice": "Sirius Black",
+                "correct": true
+            },
+            {
+                "choice": "Minerva McGonagall",
+                "correct": false
+            },
+            {
+                "choice": "Remus Lupin",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "What wormtail cut off to revive the You-Know-Who?",
+        "options": [
+            {
+                "choice": "Right hand",
+                "correct": true
+            },
+            {
+                "choice": "Right foot",
+                "correct": false
+            },
+            {
+                "choice": "Right ear",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Who was Harry originally going to the fourth part of the Christmas ball with?",
+        "options": [
+            {
+                "choice": "Cho Chang",
+                "correct": true
+            },
+            {
+                "choice": "Ginny Weasley",
+                "correct": false
+            },
+            {
+                "choice": "Hermine Granger",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "What's the name of Dumbledore's phoenix?",
+        "options": [
+            {
+                "choice": "Fawkes",
+                "correct": true
+            },
+            {
+                "choice": "Buckbeak",
+                "correct": false
+            },
+            {
+                "choice": "Frank",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Who was never Harry's teacher in defense against defense against the dark arts?",
+        "options": [
+            {
+                "choice": "Moody",
+                "correct": true
+            },
+            {
+                "choice": "Snape",
+                "correct": false
+            },
+            {
+                "choice": "Quirell",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "What is a Bezoar?",
+        "options": [
+            {
+                "choice": "A stonelike Mass from the stomach of a goat",
+                "correct": true
+            },
+            {
+                "choice": "Solid blood of a Unicorn",
+                "correct": false
+            },
+            {
+                "choice": "A Tooth from a Maticore",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "What was Slughorn disguised as when Harry first met him?",
+        "options": [
+            {
+                "choice": "Chair",
+                "correct": true
+            },
+            {
+                "choice": "Couch",
+                "correct": false
+            },
+            {
+                "choice": "Table",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "What happened to Neville's parents?",
+        "options": [
+            {
+                "choice": "They were tortured to madness",
+                "correct": true
+            },
+            {
+                "choice": "They were killed",
+                "correct": false
+            },
+            {
+                "choice": "They've been under the Imperio curse for several years",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Which beast were attracted to shiny things?",
+        "options": [
+            {
+                "choice": "Niffler",
+                "correct": true
+            },
+            {
+                "choice": "Murtlap",
+                "correct": false
+            },
+            {
+                "choice": "Doxy",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Who was Frank Bryce?",
+        "options": [
+            {
+                "choice": "The gardner of the Riddle Family",
+                "correct": true
+            },
+            {
+                "choice": "Dumbledore's best friend",
+                "correct": false
+            },
+            {
+                "choice": "The first owner of the Cloak of Invisibility",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Where do the watherdeamon Kappa come from?",
+        "options": [
+            {
+                "choice": "Japan",
+                "correct": true
+            },
+            {
+                "choice": "China",
+                "correct": false
+            },
+            {
+                "choice": "Germany",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Who's a professor of astronomy at Hogwarts?",
+        "options": [
+            {
+                "choice": "Sinestra",
+                "correct": true
+            },
+            {
+                "choice": "Sinestre",
+                "correct": false
+            },
+            {
+                "choice": "Sinestro",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "What's Newt Scamander's full name?",
+        "options": [
+            {
+                "choice": "Newton Artemis Fido Lurch Scamander",
+                "correct": true
+            },
+            {
+                "choice": "Newton Fido Lurch Brain Scamander",
+                "correct": false
+            },
+            {
+                "choice": "Newton Lurch Fido Jacob Scamander",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Who brand Blast-Ended Skrewt out of Manticores and Fire Crabs?",
+        "options": [
+            {
+                "choice": "Hagrid",
+                "correct": true
+            },
+            {
+                "choice": "Newt Scamander",
+                "correct": false
+            },
+            {
+                "choice": "Grindelwald",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Who was Minister after Pius Thicknesse?",
+        "options": [
+            {
+                "choice": "Kingsley Shacklebolt",
+                "correct": true
+            },
+            {
+                "choice": "Cornelius Fudge",
+                "correct": false
+            },
+            {
+                "choice": "Hermine Granger",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "What dragon helped Harry, Ron and Hermione to escape from Gringotts?",
+        "options": [
+            {
+                "choice": "Ukrainian Ironbelly",
+                "correct": true
+            },
+            {
+                "choice": "Norwegian Ridgeback",
+                "correct": false
+            },
+            {
+                "choice": "Romanian Longhorn",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Which of this Subject has nothing to do with the prediction of the future?",
+        "options": [
+            {
+                "choice": "Alchemy",
+                "correct": true
+            },
+            {
+                "choice": "Divination",
+                "correct": false
+            },
+            {
+                "choice": "Arithmancy",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Which beast is the same as a Dodo?",
+        "options": [
+            {
+                "choice": "Diricawl",
+                "correct": true
+            },
+            {
+                "choice": "Re'em",
+                "correct": false
+            },
+            {
+                "choice": "Bundimun",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "What dragon did Cedric fight?",
+        "options": [
+            {
+                "choice": "Swedish Short-Snout",
+                "correct": true
+            },
+            {
+                "choice": "Chinese Fireball",
+                "correct": false
+            },
+            {
+                "choice": "Hungarian Horntail",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "How many compulsory subjects does Hogwarts have?",
+        "options": [
+            {
+                "choice": "8",
+                "correct": true
+            },
+            {
+                "choice": "7",
+                "correct": false
+            },
+            {
+                "choice": "9",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "What's the lowest M.o.M Classification?",
+        "options": [
+            {
+                "choice": "X - Boring",
+                "correct": true
+            },
+            {
+                "choice": "X - Harmless / may be domesticated",
+                "correct": false
+            },
+            {
+                "choice": "X - Easy to restrain",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "What's the job of the middle head of a Runespoor?",
+        "options": [
+            {
+                "choice": "He's the dreamer",
+                "correct": true
+            },
+            {
+                "choice": "He's the thinker",
+                "correct": false
+            },
+            {
+                "choice": "He's the critic",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "What should you do with an Ashwinder egg?",
+        "options": [
+            {
+                "choice": "Freeze it",
+                "correct": true
+            },
+            {
+                "choice": "Eat it",
+                "correct": false
+            },
+            {
+                "choice": "Destroy it",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "who's the wife of Aragog?",
+        "options": [
+            {
+                "choice": "Mosag",
+                "correct": true
+            },
+            {
+                "choice": "Noson",
+                "correct": false
+            },
+            {
+                "choice": "Dogog",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "What is the only effective spell against a Lethifold?",
+        "options": [
+            {
+                "choice": "Expecto Patronum",
+                "correct": true
+            },
+            {
+                "choice": "Avada Kedavra",
+                "correct": false
+            },
+            {
+                "choice": "Lumos Maxima",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "What is the most dangerous beast?",
+        "options": [
+            {
+                "choice": "Nundu",
+                "correct": true
+            },
+            {
+                "choice": "Chimera",
+                "correct": false
+            },
+            {
+                "choice": "Manticore",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "What's the shape of a Auguery nest?",
+        "options": [
+            {
+                "choice": "Tear shaped",
+                "correct": true
+            },
+            {
+                "choice": "Hear shaped",
+                "correct": false
+            },
+            {
+                "choice": "Eye shaped",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Who's the predecessor of Hagrid?",
+        "options": [
+            {
+                "choice": "Ogg",
+                "correct": true
+            },
+            {
+                "choice": "Nogg",
+                "correct": false
+            },
+            {
+                "choice": "Fogg",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "What is not an ingredient of the polyjuice potion?",
+        "options": [
+            {
+                "choice": "Horn of a Unicorn",
+                "correct": true
+            },
+            {
+                "choice": "Leechs",
+                "correct": false
+            },
+            {
+                "choice": "Boomslang Skin",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "What shelf was the prophecy on?",
+        "options": [
+            {
+                "choice": "97",
+                "correct": true
+            },
+            {
+                "choice": "96",
+                "correct": false
+            },
+            {
+                "choice": "98",
+                "correct": false
+            }
+        ]
+    }
+]
+}

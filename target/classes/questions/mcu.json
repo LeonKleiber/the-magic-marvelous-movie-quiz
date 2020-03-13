@@ -1,0 +1,1338 @@
+{
+    "de":[
+    {
+        "level": 1,
+        "question": "Was machte Stark Industries vor Iron man 1?",
+        "options": [
+            {
+                "choice": "Waffen produzieren",
+                "correct": true
+            },
+            {
+                "choice": "Schulmateriall herstellen",
+                "correct": false
+            },
+            {
+                "choice": "Es war eine Essensproduktions Firma",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Wer ist nicht von Marvel?",
+        "options": [
+            {
+                "choice": "Cyborg",
+                "correct": true
+            },
+            {
+                "choice": "Hulk",
+                "correct": false
+            },
+            {
+                "choice": "Deadpool",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Welcher Held schlief für 7 Dekaden?",
+        "options": [
+            {
+                "choice": "Steve Rogers (Captain America)",
+                "correct": true
+            },
+            {
+                "choice": "Peggy Carter (Agent Carter)",
+                "correct": false
+            },
+            {
+                "choice": "Tony Stark (Iron man)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Welche Farbe hat Thanos?",
+        "options": [
+            {
+                "choice": "Violett",
+                "correct": true
+            },
+            {
+                "choice": "Rot",
+                "correct": false
+            },
+            {
+                "choice": "Orange",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Wer starb in Age of Ultron?",
+        "options": [
+            {
+                "choice": "Quicksilver",
+                "correct": true
+            },
+            {
+                "choice": "Vision",
+                "correct": false
+            },
+            {
+                "choice": "Flash",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Welcher Infinity Stein existiert nicht?",
+        "options": [
+            {
+                "choice": "Geschwindigkeits Stein",
+                "correct": true
+            },
+            {
+                "choice": "Raum Stein",
+                "correct": false
+            },
+            {
+                "choice": "Gedanken Stein",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Wie hieß Spider-man's verstorbener Onkel?",
+        "options": [
+            {
+                "choice": "Ben",
+                "correct": true
+            },
+            {
+                "choice": "Sam",
+                "correct": false
+            },
+            {
+                "choice": "Bill",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Wie heisst Thors Hammer?",
+        "options": [
+            {
+                "choice": "Mjolnir",
+                "correct": true
+            },
+            {
+                "choice": "Vanir",
+                "correct": false
+            },
+            {
+                "choice": "Aasir",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Welcher Held ist blid?",
+        "options": [
+            {
+                "choice": "Daredevil",
+                "correct": true
+            },
+            {
+                "choice": "Iron Fist",
+                "correct": false
+            },
+            {
+                "choice": "Luke Cage",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Welches Kasettenband hörte sich Peter bis und mit gotg 1 die ganze Zeit an?",
+        "options": [
+            {
+                "choice": "Awesome Mix Vol 1",
+                "correct": true
+            },
+            {
+                "choice": "Fantastic Mix Vol 1",
+                "correct": false
+            },
+            {
+                "choice": "Amazing Mix Vol 1",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Wer ist der leibliche Vater von Star Lord?",
+        "options": [
+            {
+                "choice": "Ego",
+                "correct": true
+            },
+            {
+                "choice": "Yondu",
+                "correct": false
+            },
+            {
+                "choice": "David Hasselhoff",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Welche Organisation unterwanderte S.H.I.E.L.D?",
+        "options": [
+            {
+                "choice": "HYDRA",
+                "correct": true
+            },
+            {
+                "choice": "EMPUSA",
+                "correct": false
+            },
+            {
+                "choice": "MEDUSA",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Wer war Mitglied des Teams von Captain America bei der Szene am Flughafen? (Civil War)",
+        "options": [
+            {
+                "choice": "Captain America, Falcon, Bucky, Scarlett Witch, Ant-man, Hawkeye",
+                "correct": true
+            },
+            {
+                "choice": "Captain America, Falcon, Bucky, Vision, Ant-man, Hawkeye",
+                "correct": false
+            },
+            {
+                "choice": "Captain America, Falcon, Bucky, Black Widow, Ant-man, Hawkeye",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Wie heißt das Kommando, das Captain Amarica im Zweiten Weltkrieg angeführt wird?",
+        "options": [
+            {
+                "choice": "Howling Kommando",
+                "correct": true
+            },
+            {
+                "choice": "Captain America Kommando",
+                "correct": false
+            },
+            {
+                "choice": "Es hatte keinen Namen",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Wie viele Avengers gibt es im ersten Avengers-Film?",
+        "options": [
+            {
+                "choice": "6",
+                "correct": true
+            },
+            {
+                "choice": "4",
+                "correct": false
+            },
+            {
+                "choice": "8",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "In welchem Film war Spider-man's erster Auftritt?",
+        "options": [
+            {
+                "choice": "Captain America: Civil War",
+                "correct": true
+            },
+            {
+                "choice": "Avengers Infinity war",
+                "correct": false
+            },
+            {
+                "choice": "Spider-man Homecoming",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Was waren die letzten Worte von Doktor Stange?",
+        "options": [
+            {
+                "choice": "Es gab keinen anderen Weg",
+                "correct": true
+            },
+            {
+                "choice": "Tony?",
+                "correct": false
+            },
+            {
+                "choice": "Das ist kein Ort zum Sterben",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Wie beschrieb Drax Thor?",
+        "options": [
+            {
+                "choice": "Als hätte ein Pirat mit einem Engel ein Baby gemacht",
+                "correct": true
+            },
+            {
+                "choice": "Als hätte eine Prinzessin ein Baby mit dem Teufel",
+                "correct": false
+            },
+            {
+                "choice": "Als hätte ein Engel mit dem Teufel ein Baby gemacht",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Als welchen Avenger 'tarnte' sich Loki in Thor the Dark World?",
+        "options": [
+            {
+                "choice": "Captain America",
+                "correct": true
+            },
+            {
+                "choice": "Iron Man",
+                "correct": false
+            },
+            {
+                "choice": "Hulk",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Wie heisst die fliegende Ameise aus Ant-man 1 ?",
+        "options": [
+            {
+                "choice": "Ant-tohny",
+                "correct": true
+            },
+            {
+                "choice": "Ant-toine",
+                "correct": false
+            },
+            {
+                "choice": "Ant-on",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Auf welchem Flughafen fand der Kampf zwischen Tony und Steve statt?",
+        "options": [
+            {
+                "choice": "Leipzig",
+                "correct": true
+            },
+            {
+                "choice": "Berlin",
+                "correct": false
+            },
+            {
+                "choice": "Frankfurt",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Welches Lied spielte, als Star Lords Dad starb?",
+        "options": [
+            {
+                "choice": "Father and Son",
+                "correct": true
+            },
+            {
+                "choice": "I want you back",
+                "correct": false
+            },
+            {
+                "choice": "O-O-H Child",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Wie viele MCU-Filme gibt es bis zum 01. 09. 2018? (nächster Film: Captain Marvel)",
+        "options": [
+            {
+                "choice": "20",
+                "correct": true
+            },
+            {
+                "choice": "22",
+                "correct": false
+            },
+            {
+                "choice": "24",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Welcher Strahlung wurde Cap ausgestetzt?",
+        "options": [
+            {
+                "choice": "Vita-Strahlung",
+                "correct": true
+            },
+            {
+                "choice": "Gamma-Strahlung",
+                "correct": false
+            },
+            {
+                "choice": "Beta-Strahlung",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Was wollte Tony nach der Schlacht um New York essen?",
+        "options": [
+            {
+                "choice": "Shawarma",
+                "correct": true
+            },
+            {
+                "choice": "Kebab",
+                "correct": false
+            },
+            {
+                "choice": "Falafel",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Welches Rennen fuhr Tony? (Iron Man 2)",
+        "options": [
+            {
+                "choice": "Monaco",
+                "correct": true
+            },
+            {
+                "choice": "Barcelona",
+                "correct": false
+            },
+            {
+                "choice": "Singapur",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Wer sagte 'Ich werde nicht länger dein Sklave sein'",
+        "options": [
+            {
+                "choice": "Carina",
+                "correct": true
+            },
+            {
+                "choice": "Ultron",
+                "correct": false
+            },
+            {
+                "choice": "Garthan Saal",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Wie heisst der Anführer des Comandos nach dem Captian America verscholl?",
+        "options": [
+            {
+                "choice": "Timothy Dugan",
+                "correct": true
+            },
+            {
+                "choice": "Jim Morita",
+                "correct": false
+            },
+            {
+                "choice": "James Buchanan Barnes",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Wer nutzte Innhuman DNA um unsterblich zu werden?",
+        "options": [
+            {
+                "choice": "Daniel Whitehall",
+                "correct": true
+            },
+            {
+                "choice": "Gideon Malick",
+                "correct": false
+            },
+            {
+                "choice": "Der Grand Master",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Wie heiss war die Expolsion der Soldaten in Iron Man 3?",
+        "options": [
+            {
+                "choice": "3000°C",
+                "correct": true
+            },
+            {
+                "choice": "1000°C",
+                "correct": false
+            },
+            {
+                "choice": "2000°C",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Welche Version des Iron Man Anzug's hatte Tony Stark während Infinity war an?",
+        "options": [
+            {
+                "choice": "Mark L",
+                "correct": true
+            },
+            {
+                "choice": "Mark XLIX",
+                "correct": false
+            },
+            {
+                "choice": "Mark XL",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Was war nicht auf Captain Americas Liste, die er gemacht hat um nach zu holen was er alles verpasst hat?",
+        "options": [
+            {
+                "choice": "Prince",
+                "correct": true
+            },
+            {
+                "choice": "Star wars",
+                "correct": false
+            },
+            {
+                "choice": "Nirvana",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Welcher Symbiot ist gelb?",
+        "options": [
+            {
+                "choice": "Screem",
+                "correct": true
+            },
+            {
+                "choice": "Carnage",
+                "correct": false
+            },
+            {
+                "choice": "Agony",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Was dachte Tony, sei sein Sozialversicherungsnummer in Iron man ",
+        "options": [
+            {
+                "choice": "5",
+                "correct": true
+            },
+            {
+                "choice": "7",
+                "correct": false
+            },
+            {
+                "choice": "9",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Welche sparchliche Benutzeroberfläche(user interface) kam bisher nie im MCU vor? (Stand:01. 09. 2018,nächster Film: Captain Marvel)",
+        "options": [
+            {
+                "choice": "V.E.R.O.N.I.C.A",
+                "correct": true
+            },
+            {
+                "choice": "T.A.D.A.S.H.I",
+                "correct": false
+            },
+            {
+                "choice": "J.O.C.A.S.T.A",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Wie viele Arme hat Doctor Strange in dem Moment als er sich in Infinity war klonte?",
+        "options": [
+            {
+                "choice": "16",
+                "correct": true
+            },
+            {
+                "choice": "14",
+                "correct": false
+            },
+            {
+                "choice": "12",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Welches Objekt von Howard Stark führt dazu, dass man andere Menschen umbringen will?",
+        "options": [
+            {
+                "choice": "Objekt 17",
+                "correct": true
+            },
+            {
+                "choice": "Objekt 47",
+                "correct": false
+            },
+            {
+                "choice": "Objekt 63",
+                "correct": false
+            }
+        ]
+    }
+],
+    "en":[
+        {
+            "level": 1,
+            "question": "What was Stark Industries doing before Iron Man 1?",
+            "options": [
+                {
+                    "choice": "Produce weapons",
+                    "correct": true
+                },
+                {
+                    "choice": "Make school material",
+                    "correct": false
+                },
+                {
+                    "choice": "It was a food production company",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 1,
+            "question": "Who is not from marvel?",
+            "options": [
+                {
+                    "choice": "Cyborg",
+                    "correct": true
+                },
+                {
+                    "choice": "Hulk",
+                    "correct": false
+                },
+                {
+                    "choice": "Deadpool",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 1,
+            "question": "Which Hero slept for 7 dekades?",
+            "options": [
+                {
+                    "choice": "Steve Rogers (Captain America)",
+                    "correct": true
+                },
+                {
+                    "choice": "Peggy Carter (Agent Carter)",
+                    "correct": false
+                },
+                {
+                    "choice": "Tony Stark (Iron man)",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 1,
+            "question": "What color is Thanos?",
+            "options": [
+                {
+                    "choice": "Purple",
+                    "correct": true
+                },
+                {
+                    "choice": "Red",
+                    "correct": false
+                },
+                {
+                    "choice": "Orange",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 1,
+            "question": "Who died in The Avengers Age of Ultron?",
+            "options": [
+                {
+                    "choice": "Quicksilver",
+                    "correct": true
+                },
+                {
+                    "choice": "Vision",
+                    "correct": false
+                },
+                {
+                    "choice": "Flash",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 1,
+            "question": "Which Infinity Stone does not exist?",
+            "options": [
+                {
+                    "choice": "Speed Stone",
+                    "correct": true
+                },
+                {
+                    "choice": "Space Stone",
+                    "correct": false
+                },
+                {
+                    "choice": "Mind Stone",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 1,
+            "question": "What was Spiderman's late uncle's name?",
+            "options": [
+                {
+                    "choice": "Ben",
+                    "correct": true
+                },
+                {
+                    "choice": "Sam",
+                    "correct": false
+                },
+                {
+                    "choice": "Bill",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 1,
+            "question": "What's the name of Thor's hammer?",
+            "options": [
+                {
+                    "choice": "Mjolnir",
+                    "correct": true
+                },
+                {
+                    "choice": "Vanir",
+                    "correct": false
+                },
+                {
+                    "choice": "Aasir",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 1,
+            "question": "What cassette tape did Peter listen to up to and including gotg 1 all the time? ",
+            "options": [
+                {
+                    "choice": "Awesome Mix Vol. 1",
+                    "correct": true
+                },
+                {
+                    "choice": "Fantastic Mix Vol. 1",
+                    "correct": false
+                },
+                {
+                    "choice": "Amazing Mix Vol. 1",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 1,
+            "question": "Which Hero is bild?",
+            "options": [
+                {
+                    "choice": "Daredevil",
+                    "correct": true
+                },
+                {
+                    "choice": "Iron Fist",
+                    "correct": false
+                },
+                {
+                    "choice": "Luke Cage",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 1,
+            "question": "Who is Star Lord's biological father?",
+            "options": [
+                {
+                    "choice": "Ego",
+                    "correct": true
+                },
+                {
+                    "choice": "Yondu",
+                    "correct": false
+                },
+                {
+                    "choice": "David Hasselhoff",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 1,
+            "question": "Which Organization infiltrated S.H.I.E.L.D?",
+            "options": [
+                {
+                    "choice": "HYDRA",
+                    "correct": true
+                },
+                {
+                    "choice": "EMPUSA",
+                    "correct": false
+                },
+                {
+                    "choice": "MEDUSA",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "question": "Who was member of the Team Captain America at the scene at the airport? (Civil War)",
+            "options": [
+                {
+                    "choice": "Captain America, Falcon, Bucky, Scarlett Witch, Ant-man, Hawkeye",
+                    "correct": true
+                },
+                {
+                    "choice": "Captain America, Falcon, Bucky, Vision, Ant-man, Hawkeye",
+                    "correct": false
+                },
+                {
+                    "choice": "Captain America, Falcon, Bucky, Black Widow, Ant-man, Hawkeye",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "question": "What's the name of the command Captain Amarica founded during World War II?",
+            "options": [
+                {
+                    "choice": "Howling command",
+                    "correct": true
+                },
+                {
+                    "choice": "Captain America command",
+                    "correct": false
+                },
+                {
+                    "choice": "It had no name",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "question": "How many Avengers are there in the first Avengers movie?",
+            "options": [
+                {
+                    "choice": "6",
+                    "correct": true
+                },
+                {
+                    "choice": "4",
+                    "correct": false
+                },
+                {
+                    "choice": "8",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "question": "What were Doctor Stange's last words?",
+            "options": [
+                {
+                    "choice": "Tony, there was no other way",
+                    "correct": true
+                },
+                {
+                    "choice": "Tony?",
+                    "correct": false
+                },
+                {
+                    "choice": "This is no place to die",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "question": "Who did Drax discibed Thor?",
+            "options": [
+                {
+                    "choice": "It’s like a pirate had a baby with an angel",
+                    "correct": true
+                },
+                {
+                    "choice": "It's like a Princesse had a Baby with the Devil",
+                    "correct": false
+                },
+                {
+                    "choice": "It’s like an Angel had a baby with the Devil",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "question": "which Avenger was Loki 'camouflaged' as in Thor the dark World?",
+            "options": [
+                {
+                    "choice": "Captain America",
+                    "correct": true
+                },
+                {
+                    "choice": "Iron Man",
+                    "correct": false
+                },
+                {
+                    "choice": "Hulk",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "question": "What movie was Spider-man's first appearance in?",
+            "options": [
+                {
+                    "choice": "Captain America: Civil War",
+                    "correct": true
+                },
+                {
+                    "choice": "Avengers Infinity war",
+                    "correct": false
+                },
+                {
+                    "choice": "Spider-man Homecoming",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "question": "What airport was the fight between Tony and Steve at?",
+            "options": [
+                {
+                    "choice": "Leipzig",
+                    "correct": true
+                },
+                {
+                    "choice": "Berlin",
+                    "correct": false
+                },
+                {
+                    "choice": "Frankfurt",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "question": "What song played when Star Lord's dad died ?",
+            "options": [
+                {
+                    "choice": "Father and Son",
+                    "correct": true
+                },
+                {
+                    "choice": "I want you back",
+                    "correct": false
+                },
+                {
+                    "choice": "O-O-H Child",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "question": "What's the name of the flying ant in Ant-man 1?",
+            "options": [
+                {
+                    "choice": "Ant-tohny",
+                    "correct": true
+                },
+                {
+                    "choice": "Ant-toine",
+                    "correct": false
+                },
+                {
+                    "choice": "Ant-on",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "question": "How many MCU movies are available up to and including 01.09.2018? (next Movie: Captain Marvel)",
+            "options": [
+                {
+                    "choice": "20",
+                    "correct": true
+                },
+                {
+                    "choice": "22",
+                    "correct": false
+                },
+                {
+                    "choice": "24",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "question": "What radiation was Captain America exposed to?",
+            "options": [
+                {
+                    "choice": "Vita radiation",
+                    "correct": true
+                },
+                {
+                    "choice": "Gamma radiation",
+                    "correct": false
+                },
+                {
+                    "choice": "Beta radiation",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "question": "What want the Avengers eat after the battle of New York ?",
+            "options": [
+                {
+                    "choice": "Shawarma",
+                    "correct": true
+                },
+                {
+                    "choice": "Kebab",
+                    "correct": false
+                },
+                {
+                    "choice": "Falafel",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "question": "Where was Tony's race in Iron Man 2?",
+            "options": [
+                {
+                    "choice": "Monaco",
+                    "correct": true
+                },
+                {
+                    "choice": "Barcelona",
+                    "correct": false
+                },
+                {
+                    "choice": "Singapore",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "question": "What's the name of the commando leader after Captain America missing ?",
+            "options": [
+                {
+                    "choice": "Timothy Dugan",
+                    "correct": true
+                },
+                {
+                    "choice": "Jim Morita",
+                    "correct": false
+                },
+                {
+                    "choice": "James Buchanan Barnes",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "question": "Who said 'I will no longer be your slave'?",
+            "options": [
+                {
+                    "choice": "Carina",
+                    "correct": true
+                },
+                {
+                    "choice": "Ultron",
+                    "correct": false
+                },
+                {
+                    "choice": "Garthan Saal",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "question": "What wasn't on Captain America's list of things he did to catch up on what he missed?",
+            "options": [
+                {
+                    "choice": "Prince",
+                    "correct": true
+                },
+                {
+                    "choice": "Star wars",
+                    "correct": false
+                },
+                {
+                    "choice": "Nirvana",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "question": "Who useed Innhuman DNA to live longer?",
+            "options": [
+                {
+                    "choice": "Daniel Withehall",
+                    "correct": true
+                },
+                {
+                    "choice": "Gideon Malleck",
+                    "correct": false
+                },
+                {
+                    "choice": "The Grand Master",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "question": "How hot was the soldier's explosion in Iron Man 3?",
+            "options": [
+                {
+                    "choice": "3000°C",
+                    "correct": true
+                },
+                {
+                    "choice": "1000°C",
+                    "correct": false
+                },
+                {
+                    "choice": "2000°C",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "question": "Which Armor Has Iron Man in Avengers:Infinity War?",
+            "options": [
+                {
+                    "choice": "Mark L",
+                    "correct": true
+                },
+                {
+                    "choice": "Mark XLIX",
+                    "correct": false
+                },
+                {
+                    "choice": "Mark XL",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "question": "Which Symbiot is yellow?",
+            "options": [
+                {
+                    "choice": "Screem",
+                    "correct": true
+                },
+                {
+                    "choice": "Carnage",
+                    "correct": false
+                },
+                {
+                    "choice": "Agony",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "question": "What thought Tony was his Social security number in Iron Man?",
+            "options": [
+                {
+                    "choice": "5",
+                    "correct": true
+                },
+                {
+                    "choice": "7",
+                    "correct": false
+                },
+                {
+                    "choice": "9",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "question": "Which natural-language user interface never appeared in the MCU before? (Last update:01. 09. 2018,next movie: Captain Marvel)",
+            "options": [
+                {
+                    "choice": "V.E.R.O.N.I.C.A",
+                    "correct": true
+                },
+                {
+                    "choice": "T.A.D.A.S.H.I",
+                    "correct": false
+                },
+                {
+                    "choice": "J.O.C.A.S.T.A",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "question": "How many arms did Doctor Strange have the moment he cloned himself in Infinity War?",
+            "options": [
+                {
+                    "choice": "16",
+                    "correct": true
+                },
+                {
+                    "choice": "14",
+                    "correct": false
+                },
+                {
+                    "choice": "20",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "question": "Which of Howard Stark's items makes you want to kill other people?",
+            "options": [
+                {
+                    "choice": "Item 17",
+                    "correct": true
+                },
+                {
+                    "choice": "Item 16",
+                    "correct": false
+                },
+                {
+                    "choice": "Item 18",
+                    "correct": false
+                }
+            ]
+        }
+    ]
+}

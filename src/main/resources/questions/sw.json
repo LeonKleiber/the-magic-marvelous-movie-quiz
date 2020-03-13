@@ -1,0 +1,906 @@
+{
+    "de":[
+    {
+        "level": 1,
+        "question": "Wer ist Luke's Vater?",
+        "options": [
+            {
+                "choice": "Darth Vader",
+                "correct": true
+            },
+            {
+                "choice": "Obi-Van Kenobi",
+                "correct": false
+            },
+            {
+                "choice": "Han Solo",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Wer tötete Han Solo?",
+        "options": [
+            {
+                "choice": "Kaylo Ren",
+                "correct": true
+            },
+            {
+                "choice": "Darth Vader",
+                "correct": false
+            },
+            {
+                "choice": "Chewie",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Wie heisst der Schöpfer von Star Wars?",
+        "options": [
+            {
+                "choice": "George Lucas",
+                "correct": true
+            },
+            {
+                "choice": "Alfred Hitchcock",
+                "correct": false
+            },
+            {
+                "choice": "J.K.Rowling",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Wie heissen die beiden bekannten Dorieden ?",
+        "options": [
+            {
+                "choice": "C3-Po & R2-D2",
+                "correct": true
+            },
+            {
+                "choice": "R2-Po & C3-D2",
+                "correct": false
+            },
+            {
+                "choice": "C2-Po & R3-D3",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Wer tötete Obi Wan Kenobis Meister Qui-Gon Jinn ?",
+        "options": [
+            {
+                "choice": "Darth Maul",
+                "correct": true
+            },
+            {
+                "choice": "Darth Vader",
+                "correct": false
+            },
+            {
+                "choice": "Count Doku",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Wie heißt Leias leibliche Mutter ?",
+        "options": [
+            {
+                "choice": "Padmé Amidala",
+                "correct": true
+            },
+            {
+                "choice": "Yaddle",
+                "correct": false
+            },
+            {
+                "choice": "Adi Gallia",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Wie heißt die Episode 4 ?",
+        "options": [
+            {
+                "choice": "Eine neue Hoffnung",
+                "correct": true
+            },
+            {
+                "choice": "Eine dunkle Bedrohung",
+                "correct": false
+            },
+            {
+                "choice": "der letzte Jedi",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Wie Heißt Darth Sidious Geheimidentität ?",
+        "options": [
+            {
+                "choice": "Palpatine",
+                "correct": true
+            },
+            {
+                "choice": "Bane",
+                "correct": false
+            },
+            {
+                "choice": "Vader",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 1,
+        "question": "Zu wem wurde Anakin Skywalker ?",
+        "options": [
+            {
+                "choice": "Darth Vader",
+                "correct": true
+            },
+            {
+                "choice": "Obi-Van Kenobi",
+                "correct": false
+            },
+            {
+                "choice": "Yoda",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Wie heißt der 'Sohn' von Jango Fett ?",
+        "options": [
+            {
+                "choice": "Boba Fett",
+                "correct": true
+            },
+            {
+                "choice": "Darth Vader",
+                "correct": false
+            },
+            {
+                "choice": "Jabba Fett",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Welches Körperteil schneidet Darth Vader Luke ab ?",
+        "options": [
+            {
+                "choice": "Hand",
+                "correct": true
+            },
+            {
+                "choice": "Fuss",
+                "correct": false
+            },
+            {
+                "choice": "Kopf",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Wer war Han's erste Liebe ?",
+        "options": [
+            {
+                "choice": "Qi'ra",
+                "correct": true
+            },
+            {
+                "choice": "Leia",
+                "correct": false
+            },
+            {
+                "choice": "Chewie",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Wie heissen die kleinen Verbündeten aus Teil 6 ?",
+        "options": [
+            {
+                "choice": "Ewoks",
+                "correct": true
+            },
+            {
+                "choice": "Wookies",
+                "correct": false
+            },
+            {
+                "choice": "Droiden",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Wie lent Han Chewie kennen ?",
+        "options": [
+            {
+                "choice": "Han wurde Chewie zum Frass vorgeworfen",
+                "correct": true
+            },
+            {
+                "choice": "Auf einer Party",
+                "correct": false
+            },
+            {
+                "choice": "Han rettet Chewie das leben",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Was ist die Farbe des Lichtschwert's von Master Window ?",
+        "options": [
+            {
+                "choice": "Violett",
+                "correct": true
+            },
+            {
+                "choice": "Grün",
+                "correct": false
+            },
+            {
+                "choice": "Blau",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Wie viele Todessterne gab es ? (ähnliche Kampfstationen zählen auch)",
+        "options": [
+            {
+                "choice": "3",
+                "correct": true
+            },
+            {
+                "choice": "1",
+                "correct": false
+            },
+            {
+                "choice": "6",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Auf welchem Planeten brachen die Klonkriege in einer gigantischen Schlacht aus ?",
+        "options": [
+            {
+                "choice": "Geonosis",
+                "correct": true
+            },
+            {
+                "choice": "Utapau",
+                "correct": false
+            },
+            {
+                "choice": "Tatooine",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Wer hat Qui-Gon Jinn ausgebildet ?",
+        "options": [
+            {
+                "choice": "Count Dooku",
+                "correct": true
+            },
+            {
+                "choice": "Lando Kenobi",
+                "correct": false
+            },
+            {
+                "choice": "Yoda",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 2,
+        "question": "Wie heißt der Gungan, den Qui-Gon und Obi-Wan in Episode 1 finden?",
+        "options": [
+            {
+                "choice": "Jar Jar Blinks",
+                "correct": true
+            },
+            {
+                "choice": "Chewbacca",
+                "correct": false
+            },
+            {
+                "choice": "Boss Nass",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "wie alt wurde Yoda ?",
+        "options": [
+            {
+                "choice": "900",
+                "correct": true
+            },
+            {
+                "choice": "800",
+                "correct": false
+            },
+            {
+                "choice": "700",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Welche Farbe hat ein Schuss eines X-Flüglers ?",
+        "options": [
+            {
+                "choice": "Rot",
+                "correct": true
+            },
+            {
+                "choice": "Grün",
+                "correct": false
+            },
+            {
+                "choice": "Violett",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "In welchem Jahr war die Schlacht um Yavin ?",
+        "options": [
+            {
+                "choice": "0",
+                "correct": true
+            },
+            {
+                "choice": "432 NSY",
+                "correct": false
+            },
+            {
+                "choice": "132 VSY",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Wie viele Mitglieder hatte der hohe Rat der Jedi ?",
+        "options": [
+            {
+                "choice": "12",
+                "correct": true
+            },
+            {
+                "choice": "10",
+                "correct": false
+            },
+            {
+                "choice": "18",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Wie hieß der Jedi Meister, der bei der Durchführung der 'Order 66' auf Mygeeto getötet wurde?",
+        "options": [
+            {
+                "choice": "Ki Adi-Mundi",
+                "correct": true
+            },
+            {
+                "choice": "Mace Window",
+                "correct": false
+            },
+            {
+                "choice": "Obi-Wan Kenobi",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "level": 3,
+        "question": "Wie heißen die Tiere die die Rebellen auf dem Planeten Hoth reiten, um den Planeten zu erkunden?",
+        "options": [
+            {
+                "choice": "Taun Taun",
+                "correct": true
+            },
+            {
+                "choice": "Sarlacc",
+                "correct": false
+            },
+            {
+                "choice": "Rancor",
+                "correct": false
+            }
+        ]
+    }
+],
+    "en":[
+        {
+            "level": 1,
+            "question": "Who's Luke's father?",
+            "options": [
+                {
+                    "choice": "Darth Vader",
+                    "correct": true
+                },
+                {
+                    "choice": "Obi-Van Kenobi",
+                    "correct": false
+                },
+                {
+                    "choice": "Han Solo",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 1,
+            "question": "Who killed Han Solo?",
+            "options": [
+                {
+                    "choice": "Kaylo Ren",
+                    "correct": true
+                },
+                {
+                    "choice": "Darth Vader",
+                    "correct": false
+                },
+                {
+                    "choice": "Chewie",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 1,
+            "question": "What's the name of the creator of Star Wars ?",
+            "options": [
+                {
+                    "choice": "George Lucas",
+                    "correct": true
+                },
+                {
+                    "choice": "Alfred Hitchcock",
+                    "correct": false
+                },
+                {
+                    "choice": "J.K.Rowling",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 1,
+            "question": "What are the names of the two known Dorieden ?",
+            "options": [
+                {
+                    "choice": "C3-Po & R2-D2",
+                    "correct": true
+                },
+                {
+                    "choice": "R2-Po & C3-D2",
+                    "correct": false
+                },
+                {
+                    "choice": "C2-Po & R3-D3",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 1,
+            "question": "Who killed Obi Wan Kenobi's master Qui-Gon Jinn?",
+            "options": [
+                {
+                    "choice": "Darth Maul",
+                    "correct": true
+                },
+                {
+                    "choice": "Darth Vader",
+                    "correct": false
+                },
+                {
+                    "choice": "Count Doku",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 1,
+            "question": "What's Leia's birth mother's name?",
+            "options": [
+                {
+                    "choice": "Padmé Amidala",
+                    "correct": true
+                },
+                {
+                    "choice": "Yaddle",
+                    "correct": false
+                },
+                {
+                    "choice": "Adi Gallia",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 1,
+            "question": "What's the Episode 4 called?",
+            "options": [
+                {
+                    "choice": "A new hope",
+                    "correct": true
+                },
+                {
+                    "choice": "A dark threat",
+                    "correct": false
+                },
+                {
+                    "choice": "The last Jedi",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 1,
+            "question": "What's Darth Sidious's secret identity called ?",
+            "options": [
+                {
+                    "choice": "Palpatine",
+                    "correct": true
+                },
+                {
+                    "choice": "Bane",
+                    "correct": false
+                },
+                {
+                    "choice": "Vader",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 1,
+            "question": "Who became Anakin Skywalker ?",
+            "options": [
+                {
+                    "choice": "Darth Vader",
+                    "correct": true
+                },
+                {
+                    "choice": "Obi-Van Kenobi",
+                    "correct": false
+                },
+                {
+                    "choice": "Yoda",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "question": "What's Jango Fett's son's name?",
+            "options": [
+                {
+                    "choice": "Boba Fett",
+                    "correct": true
+                },
+                {
+                    "choice": "Darth Vader",
+                    "correct": false
+                },
+                {
+                    "choice": "Jabba fat",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "question": "What part of the body is Darth Vader Luke cutting off?",
+            "options": [
+                {
+                    "choice": "hand",
+                    "correct": true
+                },
+                {
+                    "choice": "foot",
+                    "correct": false
+                },
+                {
+                    "choice": "head",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "question": "Who was Han's first love?",
+            "options": [
+                {
+                    "choice": "Qi'ra",
+                    "correct": true
+                },
+                {
+                    "choice": "Leia",
+                    "correct": false
+                },
+                {
+                    "choice": "Chewie",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "question": "What's the name of the little allies from part 6 ?",
+            "options": [
+                {
+                    "choice": "Ewoks",
+                    "correct": true
+                },
+                {
+                    "choice": "Wookies",
+                    "correct": false
+                },
+                {
+                    "choice": "Droids",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "question": "How lent know Han Chewie ?",
+            "options": [
+                {
+                    "choice": "Han was thrown to Chewie's food",
+                    "correct": true
+                },
+                {
+                    "choice": "At a party",
+                    "correct": false
+                },
+                {
+                    "choice": "Han saves Chewie's life",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "question": "What's the color of the Master Window lightsaber ?",
+            "options": [
+                {
+                    "choice": "Violet",
+                    "correct": true
+                },
+                {
+                    "choice": "green",
+                    "correct": false
+                },
+                {
+                    "choice": "blue",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "question": "How many Death Stars were there ? (similar battle stations also count)",
+            "options": [
+                {
+                    "choice": "3",
+                    "correct": true
+                },
+                {
+                    "choice": "1",
+                    "correct": false
+                },
+                {
+                    "choice": "6",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "question": "On which planet did the clone wars break out in a gigantic battle ?",
+            "options": [
+                {
+                    "choice": "Geonosis",
+                    "correct": true
+                },
+                {
+                    "choice": "Utapau",
+                    "correct": false
+                },
+                {
+                    "choice": "Tatooine",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "question": "Who trained Qui-Gon Jinn ?",
+            "options": [
+                {
+                    "choice": "Count Dooku",
+                    "correct": true
+                },
+                {
+                    "choice": "Lando Kenobi",
+                    "correct": false
+                },
+                {
+                    "choice": "Yoda",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "question": "What's the name of the Gungan that Qui-Gon and Obi-Wan find in Episode 1?",
+            "options": [
+                {
+                    "choice": "Jar Jar Blinks",
+                    "correct": true
+                },
+                {
+                    "choice": "Chewbacca",
+                    "correct": false
+                },
+                {
+                    "choice": "Boss Nass",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "question": "How old was Yoda ?",
+            "options": [
+                {
+                    "choice": "900",
+                    "correct": true
+                },
+                {
+                    "choice": "800",
+                    "correct": false
+                },
+                {
+                    "choice": "700",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "question": "What color is a shot of an X-wing ?",
+            "options": [
+                {
+                    "choice": "Red",
+                    "correct": true
+                },
+                {
+                    "choice": "Green",
+                    "correct": false
+                },
+                {
+                    "choice": "Violet",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "question": "What year was the Battle of Yavin ?",
+            "options": [
+                {
+                    "choice": "0",
+                    "correct": true
+                },
+                {
+                    "choice": "432 NSY",
+                    "correct": false
+                },
+                {
+                    "choice": "132 VSY",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "question": "How many members did the Jedi High Council have ?",
+            "options": [
+                {
+                    "choice": "12",
+                    "correct": true
+                },
+                {
+                    "choice": "10",
+                    "correct": false
+                },
+                {
+                    "choice": "18",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "question": "What was the name of the Jedi Master who was killed during the execution of Order 66 on Mygeeto?",
+            "options": [
+                {
+                    "choice": "Ki Adi-Mundi",
+                    "correct": true
+                },
+                {
+                    "choice": "Mace Window",
+                    "correct": false
+                },
+                {
+                    "choice": "Obi-Wan Kenobi ?",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "question": "What are the names of the animals the rebels ride on the planet Hoth to explore the planet?",
+            "options": [
+                {
+                    "choice": "Taun Taun",
+                    "correct": true
+                },
+                {
+                    "choice": "Sarlacc",
+                    "correct": false
+                },
+                {
+                    "choice": "Rancor",
+                    "correct": false
+                }
+            ]
+        }
+    ]
+}

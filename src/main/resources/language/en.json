@@ -1,0 +1,39 @@
+{
+  "Home": {
+    "btnStart": "Start",
+    "btnSettings": "Settings"
+  },
+  "Settings": {
+    "darkModePnl": {
+      "lblTitle": "Dark Mode:",
+      "tbDarkMode": {
+        "lblOff": "Off",
+        "lblOn": "On"
+      }
+    },
+    "pnlLanguage": {
+      "lblTitle": "Language:"
+    },
+    "btnSubmit": "Submit"
+  },
+  "Config": {
+    "pnlTopic": {
+      "lblTitle": "Topics"
+    },
+    "pnlDifficulty": {
+      "lblTitle": "Difficulty",
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard"
+    },
+    "btnSubmit": "Submit"
+  },
+  "Question": {
+    "btnNext": "Next Question",
+    "btnNextResult": "See Result"
+  },
+  "Result": {
+    "btnRestart": "Restart"
+
+  }
+}
