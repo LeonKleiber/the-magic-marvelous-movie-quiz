@@ -1,39 +1,34 @@
 {
   "Home": {
-    "btnStart": "Start",
-    "btnSettings": "Einstellungen"
+    "settings": "Einstellungen"
   },
   "Settings": {
-    "darkModePnl": {
-      "lblTitle": "Dunkel:",
-      "tbDarkMode": {
-        "lblOff": "Aus",
-        "lblOn": "An"
-      }
-    },
-    "pnlLanguage": {
-      "lblTitle": "Sprache:"
-    },
-    "btnSubmit": "Ok"
+    "lblTitle": "Dunkel",
+    "off": "Aus",
+    "on": "An",
+    "language": "Sprache",
+    "home": "Zurück"
   },
   "Config": {
-    "pnlTopic": {
-      "lblTitle": "Themen"
-    },
-    "pnlDifficulty": {
-      "lblTitle": "Schwierigkeit",
-      "easy": "Einfach",
-      "medium": "Mittel",
-      "hard": "Schwer"
-    },
-    "btnSubmit": "Ok"
+    "topic": "Themen",
+    "difficulty": "Schwierigkeit",
+    "easy": "Einfach",
+    "medium": "Mittel",
+    "hard": "Schwer",
+    "submit": "Bestätigen"
   },
   "Question": {
-    "btnNext": "Nächste Frage",
-    "btnNextResult": "Resultat anschauen"
+    "next": "Nächste Frage",
+    "result": "Resultat"
   },
   "Result": {
-    "btnRestart": "Neustart"
-
+    "restart": "Neustart"
+  },
+  "Title": {
+    "Home": "Home",
+    "Settings": "Einstellungen",
+    "Config": "Auswahl",
+    "Question": "Fragen",
+    "Result": "Resultat"
   }
 }

@@ -11,6 +11,7 @@ public class MainFrame extends JFrame {
     Map<String, View> views = new HashMap<>();
     private JPanel controlPanel;
     private CardLayout layout = new CardLayout();
+    private Language language;
 
 
     public MainFrame() {
@@ -18,6 +19,7 @@ public class MainFrame extends JFrame {
     }
 
     public void create() {
+        this.language = new Language(this);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         createControlPanel();
         createViews();
@@ -40,18 +42,19 @@ public class MainFrame extends JFrame {
     private void createViews() {
         ChangeView changeView = new ChangeView(this);
         putViewInMap(new HomeView(changeView));
-        putViewInMap(new SettingsView(changeView));
+        putViewInMap(new SettingsView(changeView, language));
         putViewInMap(new ConfigView(changeView));
         putViewInMap(new QuestionView(changeView));
         putViewInMap(new ResultView(changeView));
         addAllViewsToControlPanel();
         changeViewTo("Home");
+        updateLanguage();
     }
 
 
     public void changeViewTo(String view) {
         layout.show(controlPanel, view);
-        setTitle("The Magic Marvelous Movie Quiz - " + view);
+        setTitle("The Magic Marvelous Movie Quiz - " + language.getViewContent("Title").get(view));
         setLocationRelativeTo(null);
     }
 
@@ -66,5 +69,9 @@ public class MainFrame extends JFrame {
 
     private void addViewToControlPanel(View view) {
         controlPanel.add(view.getName(), view);
+    }
+
+    public void updateLanguage() {
+        for (View view : views.values()) view.setContent(language);
     }
 }

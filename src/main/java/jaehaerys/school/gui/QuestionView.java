@@ -1,5 +1,7 @@
 package jaehaerys.school.gui;
 
+import org.json.simple.JSONObject;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -25,7 +27,7 @@ public class QuestionView extends View {
         thirdChoice = new JRadioButton("Red");
         radioBtn(thirdChoice);
 
-        btnNext = new JButton("See Result");
+        btnNext = new JButton();
         btnNext.addActionListener(changeView);
         submitBtn(btnNext);
 
@@ -35,5 +37,12 @@ public class QuestionView extends View {
         add(thirdChoice);
         add(btnNext, BorderLayout.SOUTH);
 
+    }
+
+    @Override
+    public void setContent(Language language) {
+        JSONObject content = getContent(language);
+
+        btnNext.setText((String) content.get("result"));
     }
 }

@@ -1,12 +1,14 @@
 package jaehaerys.school.gui;
 
+import org.json.simple.JSONObject;
+
 import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.border.EmptyBorder;
 import javax.swing.border.LineBorder;
 import java.awt.*;
 
-public class View extends JPanel {
+public abstract class View extends JPanel {
 
     public static final Color BLACK = new Color(30, 30, 30);
     public static final Color WHITE = new Color(190, 190, 190);
@@ -122,6 +124,12 @@ public class View extends JPanel {
         table.setRowHeight(50);
         table.setTableHeader(null);
         table.setEnabled(false);
+    }
+
+    public abstract void setContent(Language language);
+
+    public JSONObject getContent(Language language) {
+        return language.getViewContent(this.name);
     }
 }
 

@@ -1,5 +1,7 @@
 package jaehaerys.school.gui;
 
+import org.json.simple.JSONObject;
+
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
@@ -33,12 +35,19 @@ public class ResultView extends View {
         tableScrollBar.setBackground(BLACK);
         tableScrollBar.setBorder(NO_BORDER);
 
-        btnRestart = new JButton("Restart");
+        btnRestart = new JButton();
         btnRestart.addActionListener(changeView);
         bigBtn(btnRestart);
 
         add(slider);
         add(tableScrollBar);
         add(btnRestart);
+    }
+
+    @Override
+    public void setContent(Language language) {
+        JSONObject content = getContent(language);
+
+        btnRestart.setText((String) content.get("restart"));
     }
 }

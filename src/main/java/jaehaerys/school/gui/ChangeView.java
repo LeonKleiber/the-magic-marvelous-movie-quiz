@@ -23,16 +23,21 @@ public class ChangeView implements ActionListener {
                 view = "Config";
                 break;
             case "Settings":
+            case "Einstellungen":
                 view = "Settings";
                 break;
             case "Submit":
+            case "Bestätigen":
                 view = "Question";
                 break;
             case "See Result":
+            case "Resultat":
                 view = "Result";
                 break;
             case "Home":
+            case "Zurück":
             case "Restart":
+            case "Neustart":
             default:
                 view = "Home";
                 break;

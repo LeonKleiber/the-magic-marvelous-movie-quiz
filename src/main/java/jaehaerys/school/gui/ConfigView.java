@@ -1,5 +1,7 @@
 package jaehaerys.school.gui;
 
+import org.json.simple.JSONObject;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -20,7 +22,7 @@ public class ConfigView extends View {
         pnl(pnlTopic);
 
 
-        lblTopic = new JLabel("Topics");
+        lblTopic = new JLabel();
         title(lblTopic);
 
         pnlRbTopic = new JPanel();
@@ -47,14 +49,14 @@ public class ConfigView extends View {
         pnl(pnlDifficulty);
 
 
-        lblDifficulty = new JLabel("Difficulty");
+        lblDifficulty = new JLabel();
         title(lblDifficulty);
 
         pnlRbDifficulty = new JPanel();
         pnlRbDifficulty.setLayout(new GridLayout(1, 3));
         pnl(pnlRbDifficulty);
 
-        rbEasy = new JRadioButton("Easy");
+        rbEasy = new JRadioButton();
         radioBtn(rbEasy);
         rbMedium = new JRadioButton("Medium");
         radioBtn(rbMedium);
@@ -82,5 +84,18 @@ public class ConfigView extends View {
     private void createButtonGroup(JRadioButton[] radioButtons) {
         ButtonGroup bg = new ButtonGroup();
         for (JRadioButton rb : radioButtons) bg.add(rb);
+    }
+
+    @Override
+    public void setContent(Language language) {
+        JSONObject content = getContent(language);
+
+        lblTopic.setText((String) content.get("topic"));
+        lblDifficulty.setText((String) content.get("difficulty"));
+        rbEasy.setText((String) content.get("easy"));
+        rbMedium.setText((String) content.get("medium"));
+        rbHard.setText((String) content.get("hard"));
+        btnSubmit.setText((String) content.get("submit"));
+
     }
 }
