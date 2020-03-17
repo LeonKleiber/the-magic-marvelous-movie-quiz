@@ -1,10 +1,10 @@
 package jaehaerys.school.main;
 
-import jaehaerys.school.ui.ViewController;
+import jaehaerys.school.gui.MainFrame;
 
 public class TheMagicMarvelousMovieQuiz {
-    public static void main(String[] args) {
-        new ViewController();
-    }
 
+    public static void main(String[] args) {
+        new MainFrame().display();
+    }
 }

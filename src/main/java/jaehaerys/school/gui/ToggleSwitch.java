@@ -1,10 +1,12 @@
-package jaehaerys.school.ui;
+package jaehaerys.school.gui;
 
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-public class ToggleSwitch extends JToggleButton {
+public class ToggleSwitch extends JToggleButton implements ActionListener {
 
-    private boolean darkMode =true;
+    private boolean darkMode = true;
 
     public ToggleSwitch() {
         super();
@@ -22,7 +24,7 @@ public class ToggleSwitch extends JToggleButton {
         } else {
             setImageIcon("/images/switchOff.jpg");
         }
-    };
+    }
 
     private void setImageIcon(String path) {
         java.net.URL imgURL = getClass().getResource(path);
@@ -35,5 +37,10 @@ public class ToggleSwitch extends JToggleButton {
 
     public boolean isDarkMode() {
         return darkMode;
+    }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        changeMode();
     }
 }

@@ -1,22 +1,19 @@
-package jaehaerys.school.ui.style;
+package jaehaerys.school.gui;
 
 import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.border.EmptyBorder;
+import javax.swing.border.LineBorder;
 import java.awt.*;
 
+public class View extends JPanel {
 
-public class Style {
-
-    //  Color
     public static final Color BLACK = new Color(30, 30, 30);
     public static final Color WHITE = new Color(190, 190, 190);
 
-
-    public static final  Dimension DEFAULT_FRAME_SIZE = new Dimension(500,500);
-
     // Border
-    private final Border NO_BORDER= new EmptyBorder(0,0,0,0);
+    final Border NO_BORDER = new EmptyBorder(0, 0, 0, 0);
+    final Border THIN_WHITE_BORDER = new LineBorder(WHITE, 1);
 
 
     // Font Size
@@ -24,87 +21,107 @@ public class Style {
     private final int MEDIUM = 20;
     private final int SMALL = 15;
 
-    private void text(JComponent component){
+    String name;
+    ChangeView changeView;
+
+    public View(String name, ChangeView changeView) {
+        this.name = name;
+        this.changeView = changeView;
+        setBackground(BLACK);
+        setForeground(WHITE);
+    }
+
+    public String getName() {
+        return name;
+    }
+
+
+    void pnl(JPanel pnl) {
+        pnl.setBackground(BLACK);
+        pnl.setForeground(WHITE);
+    }
+
+    private void text(JComponent component) {
         component.setForeground(WHITE);
     }
 
-    public void btn(JButton btn){
+    void btn(JButton btn) {
         btn.setBorder(NO_BORDER);
         text(btn);
     }
 
-    public void bigBtn(JButton btn){
+    void bigBtn(JButton btn) {
         btn(btn);
-        setFontSize(btn,BIG);
+        setFontSize(btn, BIG);
     }
 
-    public void subtitle(JLabel lbl){
+    void title(JLabel lbl) {
         setFontSize(lbl, BIG);
         centerLabel(lbl);
         text(lbl);
     }
-    public void toggleSwitchLbl(JLabel lbl) {
+
+    void toggleSwitchLbl(JLabel lbl) {
         setFontSize(lbl, SMALL);
         text(lbl);
     }
 
 
-    private void setFontSize(JComponent component,int size){
+    private void setFontSize(JComponent component, int size) {
         component.setFont(new Font("Arial", Font.PLAIN, size));
     }
 
-    public void radioBtn(JRadioButton radioBtn) {
+    void radioBtn(JRadioButton radioBtn) {
         setFontSize(radioBtn, MEDIUM);
         centerRadioBtn(radioBtn);
         text(radioBtn);
     }
 
-    public void submitBtn(JButton btn) {
+    void submitBtn(JButton btn) {
         btn(btn);
         setFontSize(btn, MEDIUM);
         btn.setSize(200, 100);
     }
 
-    private void centerRadioBtn(JRadioButton radioBtn){
+    private void centerRadioBtn(JRadioButton radioBtn) {
         radioBtn.setHorizontalAlignment(SwingConstants.CENTER);
     }
 
-    private void centerLabel(JLabel lbl){
+    private void centerLabel(JLabel lbl) {
         lbl.setHorizontalAlignment(SwingConstants.CENTER);
     }
 
 
-    public void toggleSwitch(JToggleButton tb) {
+    void toggleSwitch(JToggleButton tb) {
         tb.setBorder(NO_BORDER);
     }
 
-    public void question(JLabel lbl) {
+    void question(JLabel lbl) {
         setFontSize(lbl, MEDIUM);
         centerLabel(lbl);
         text(lbl);
     }
 
-    public void slider(JSlider slider) {
+    void slider(JSlider slider) {
         slider.setMajorTickSpacing(1);
         slider.setPaintLabels(true);
         slider.setFocusable(false);
         slider.setEnabled(false);
-        
+
         text(slider);
     }
 
-    public void table(JTable table) {
+    void table(JTable table) {
         table.setBackground(BLACK);
         text(table);
-        table.setGridColor(BLACK);
-        table.setBorder(NO_BORDER);
-        table.getAutoResizeMode();
+        table.setGridColor(WHITE);
+        table.setBorder(THIN_WHITE_BORDER);
         table.getColumnModel().getColumn(0).setPreferredWidth(10);
         table.getColumnModel().getColumn(1).setPreferredWidth(400);
         table.getColumnModel().getColumn(2).setPreferredWidth(90);
         table.setRowHeight(50);
         table.setTableHeader(null);
         table.setEnabled(false);
-        table.setAutoCreateColumnsFromModel(true);
     }
 }
+

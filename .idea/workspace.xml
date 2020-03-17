@@ -1,8 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d5d6a4d-3016-44de-b6bd-99d844d0aac9" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="2d5d6a4d-3016-44de-b6bd-99d844d0aac9" name="Default Changelist" comment="A working non confising version">
+      <change afterPath="$PROJECT_DIR$/src/main/java/jaehaerys/school/gui/ChangeView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jaehaerys/school/gui/ConfigView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jaehaerys/school/gui/HomeView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jaehaerys/school/gui/MainFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jaehaerys/school/gui/QuestionView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jaehaerys/school/gui/ResultView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jaehaerys/school/gui/SettingsView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jaehaerys/school/gui/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jaehaerys/school/logic/IDontKnow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jaehaerys/school/main/TheMagicMarvelousMovieQuiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jaehaerys/school/main/TheMagicMarvelousMovieQuiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jaehaerys/school/ui/Language.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jaehaerys/school/ui/MainFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jaehaerys/school/ui/ToggleSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jaehaerys/school/gui/ToggleSwitch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jaehaerys/school/ui/ViewController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jaehaerys/school/ui/actionlistener/ChangeView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jaehaerys/school/ui/actionlistener/SubmitSettings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jaehaerys/school/ui/actionlistener/SwitchMode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jaehaerys/school/ui/panels/ConfigRadioButtonPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jaehaerys/school/ui/panels/DarkModePanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jaehaerys/school/ui/panels/DifficultyPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jaehaerys/school/ui/panels/GameModePanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jaehaerys/school/ui/panels/LanguagePanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jaehaerys/school/ui/panels/Panel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jaehaerys/school/ui/panels/Table.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jaehaerys/school/ui/panels/ToggleButtonPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jaehaerys/school/ui/panels/TopicPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jaehaerys/school/ui/panels/View.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jaehaerys/school/ui/style/Style.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jaehaerys/school/ui/views/ConfigView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jaehaerys/school/ui/views/HomeView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jaehaerys/school/ui/views/QuestionView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jaehaerys/school/ui/views/ResultView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jaehaerys/school/ui/views/SettingsView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/quiz.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/theMagicMarvelousMovieQuiz.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/theMagicMarvelousMovieQuiz.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jaehaerys/school/main/TheMagicMarvelousMovieQuiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jaehaerys/school/main/TheMagicMarvelousMovieQuiz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jaehaerys/school/ui/Language.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jaehaerys/school/ui/MainFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jaehaerys/school/ui/ToggleSwitch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jaehaerys/school/ui/ViewController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jaehaerys/school/ui/actionlistener/ChangeView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jaehaerys/school/ui/actionlistener/SubmitSettings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jaehaerys/school/ui/actionlistener/SwitchMode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jaehaerys/school/ui/panels/ConfigRadioButtonPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jaehaerys/school/ui/panels/DarkModePanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jaehaerys/school/ui/panels/DifficultyPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jaehaerys/school/ui/panels/GameModePanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jaehaerys/school/ui/panels/LanguagePanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jaehaerys/school/ui/panels/Panel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jaehaerys/school/ui/panels/Table.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jaehaerys/school/ui/panels/ToggleButtonPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jaehaerys/school/ui/panels/TopicPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jaehaerys/school/ui/panels/View.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jaehaerys/school/ui/style/Style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jaehaerys/school/ui/views/ConfigView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jaehaerys/school/ui/views/HomeView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jaehaerys/school/ui/views/QuestionView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jaehaerys/school/ui/views/ResultView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jaehaerys/school/ui/views/SettingsView.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +91,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1Y6frcUDSTzYDSIZS8nsNeuGVTo" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -29,30 +116,19 @@
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/image" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="jaehaerys.school.ui" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="jaehaerys.school.logic" />
       <recent name="jaehaerys.school.ui.panels" />
       <recent name="jaehaerys.school.ui.views" />
       <recent name="jaehaerys.school.ui.actionlistener" />
       <recent name="jaehaerys.school.ui" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="jaehaerys.school.ui" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/image" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="The Magic Marvelous Movie Quiz" type="Application" factoryName="Application">
@@ -75,5 +151,115 @@
       <updated>1582268164900</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="A working non confising version" />
+    <option name="LAST_COMMIT_MESSAGE" value="A working non confising version" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584374014743">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584374014743" />
+    <state x="490" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584372081970">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="490" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1584372081970" />
+    <state x="653" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1584380102119">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="653" y="241" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1584380102119" />
+    <state x="606" y="391" width="474" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584378305142">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="606" y="391" width="474" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1680.1050@0.0.1680.1050" timestamp="1584378305142" />
+    <state x="309" y="79" key="CommitChangelistDialog2" timestamp="1584441102952">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="309" y="79" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1584441102952" />
+    <state width="1638" height="346" key="GridCell.Tab.0.bottom" timestamp="1584440954657">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="346" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1584440954657" />
+    <state width="1638" height="344" key="GridCell.Tab.0.bottom/0.23.1680.1001@0.0.1680.1050" timestamp="1584366101792" />
+    <state width="1638" height="346" key="GridCell.Tab.0.bottom/0.23.1680.1001@0.23.1680.1001" timestamp="1584439206225" />
+    <state width="1638" height="346" key="GridCell.Tab.0.center" timestamp="1584440954655">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="346" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1584440954655" />
+    <state width="1638" height="344" key="GridCell.Tab.0.center/0.23.1680.1001@0.0.1680.1050" timestamp="1584366101739" />
+    <state width="1638" height="346" key="GridCell.Tab.0.center/0.23.1680.1001@0.23.1680.1001" timestamp="1584439206223" />
+    <state width="1638" height="346" key="GridCell.Tab.0.left" timestamp="1584440954654">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="346" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1584440954654" />
+    <state width="1638" height="346" key="GridCell.Tab.0.left/0.23.1680.1001@0.23.1680.1001" timestamp="1584439206223" />
+    <state width="1638" height="346" key="GridCell.Tab.0.right" timestamp="1584440954656">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="346" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1584440954656" />
+    <state width="1638" height="344" key="GridCell.Tab.0.right/0.23.1680.1001@0.0.1680.1050" timestamp="1584366101775" />
+    <state width="1638" height="346" key="GridCell.Tab.0.right/0.23.1680.1001@0.23.1680.1001" timestamp="1584439206224" />
+    <state width="1638" height="362" key="GridCell.Tab.1.bottom" timestamp="1584377766564">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="362" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1584377766564" />
+    <state width="1638" height="362" key="GridCell.Tab.1.bottom/0.23.1680.1001@0.23.1680.1001" timestamp="1584377730293" />
+    <state width="1638" height="362" key="GridCell.Tab.1.center" timestamp="1584377766563">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="362" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1584377766563" />
+    <state width="1638" height="362" key="GridCell.Tab.1.center/0.23.1680.1001@0.23.1680.1001" timestamp="1584377730292" />
+    <state width="1638" height="362" key="GridCell.Tab.1.left" timestamp="1584377766562">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="362" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1584377766562" />
+    <state width="1638" height="362" key="GridCell.Tab.1.left/0.0.1680.1050@0.23.1680.1001" timestamp="1584377730291" />
+    <state width="1638" height="362" key="GridCell.Tab.1.left/0.23.1680.1001@0.23.1680.1001" timestamp="1584377693703" />
+    <state width="1638" height="362" key="GridCell.Tab.1.right" timestamp="1584377766564">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="362" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1584377766564" />
+    <state width="1638" height="362" key="GridCell.Tab.1.right/0.23.1680.1001@0.23.1680.1001" timestamp="1584377730292" />
+    <state x="378" y="187" key="Maven.ArtifactSearchDialog" timestamp="1584353939755">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="378" y="187" key="Maven.ArtifactSearchDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584353939755" />
+    <state x="328" y="106" key="SettingsEditor" timestamp="1584372018063">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="328" y="106" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1584372018063" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1584368618120">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1584368618120" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jaehaerys/school/gui/HomeView.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
