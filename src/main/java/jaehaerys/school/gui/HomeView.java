@@ -17,8 +17,7 @@ public class HomeView extends View {
         btnStart = new JButton("Start");
         btnSettings = new JButton();
 
-        bigBtn(btnStart);
-        bigBtn(btnSettings);
+
 
         btnStart.addActionListener(this.changeView);
         btnSettings.addActionListener(this.changeView);
@@ -32,4 +31,13 @@ public class HomeView extends View {
         JSONObject content = getContent(language);
         btnSettings.setText((String) content.get("settings"));
     }
+
+    @Override
+    public void setStyle(Style style) {
+        style.pnl(this);
+        style.menu(btnStart);
+        style.menu(btnSettings);
+    }
+
+
 }

@@ -16,31 +16,33 @@ public class SettingsView extends View implements ActionListener {
     private ButtonGroup bgLanguages;
     private ToggleSwitch toggleSwitch;
     private Language language;
+    private Style style;
 
-    public SettingsView(ChangeView changeView, Language l) {
+    public SettingsView(ChangeView changeView, Language l, Style style) {
         super("Settings", changeView);
         setLayout(new GridLayout(3, 1));
         language = l;
+        this.style = style;
 
         pnlDarkMode = new JPanel();
         pnlDarkMode.setLayout(new GridLayout(2, 1));
-        pnl(pnlDarkMode);
+
 
         lblDarkMode = new JLabel("Dark Mode");
-        title(lblDarkMode);
+
 
         pnlToggleBtn = new JPanel();
-        pnl(pnlToggleBtn);
+
 
         lblOff = new JLabel();
-        toggleSwitchLbl(lblOff);
+
 
         toggleSwitch = new ToggleSwitch();
         toggleSwitch.addActionListener(toggleSwitch);
-        toggleSwitch(toggleSwitch);
+
 
         lblOn = new JLabel();
-        toggleSwitchLbl(lblOn);
+
 
         pnlToggleBtn.add(lblOff);
         pnlToggleBtn.add(toggleSwitch);
@@ -51,17 +53,17 @@ public class SettingsView extends View implements ActionListener {
 
         pnlLanguage = new JPanel();
         pnlLanguage.setLayout(new GridLayout(3, 1));
-        pnl(pnlLanguage);
+
 
         lblLanguage = new JLabel();
-        title(lblLanguage);
+
 
         rbEnglish = new JRadioButton("English");
         rbEnglish.setSelected(true);
-        radioBtn(rbEnglish);
+
 
         rbGerman = new JRadioButton("Deutsch");
-        radioBtn(rbGerman);
+
 
         makeRadioButtonGroup();
 
@@ -70,7 +72,6 @@ public class SettingsView extends View implements ActionListener {
         pnlLanguage.add(rbGerman);
 
         btnHome = new JButton();
-        submitBtn(btnHome);
         btnHome.addActionListener(this);
 
 
@@ -96,6 +97,22 @@ public class SettingsView extends View implements ActionListener {
     }
 
     @Override
+    public void setStyle(Style style) {
+        style.pnl(this);
+        style.pnl(pnlDarkMode);
+        style.title(lblDarkMode);
+        style.pnl(pnlToggleBtn);
+        style.onOff(lblOff);
+        style.toggleSwitch(toggleSwitch);
+        style.onOff(lblOn);
+        style.pnl(pnlLanguage);
+        style.title(lblLanguage);
+        style.rb(rbEnglish);
+        style.rb(rbGerman);
+        style.submit(btnHome);
+    }
+
+    @Override
     public void actionPerformed(ActionEvent e) {
         String language;
         if (rbEnglish.isSelected()) language = "en";
@@ -103,8 +120,8 @@ public class SettingsView extends View implements ActionListener {
 
         this.language.setLanguage(language);
 
-        if (toggleSwitch.isDarkMode()) System.out.println("Dark");
-        else System.out.println("Light");
+        if (toggleSwitch.isDarkMode()) style.setMode(true);
+        else style.setMode(false);
 
         changeView.actionPerformed(e);
     }

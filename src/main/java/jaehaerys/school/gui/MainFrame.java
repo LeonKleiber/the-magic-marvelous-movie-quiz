@@ -12,6 +12,7 @@ public class MainFrame extends JFrame {
     private JPanel controlPanel;
     private CardLayout layout = new CardLayout();
     private Language language;
+    private Style style;
 
 
     public MainFrame() {
@@ -20,6 +21,7 @@ public class MainFrame extends JFrame {
 
     public void create() {
         this.language = new Language(this);
+        this.style = new Style(this);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         createControlPanel();
         createViews();
@@ -42,13 +44,14 @@ public class MainFrame extends JFrame {
     private void createViews() {
         ChangeView changeView = new ChangeView(this);
         putViewInMap(new HomeView(changeView));
-        putViewInMap(new SettingsView(changeView, language));
+        putViewInMap(new SettingsView(changeView, language, style));
         putViewInMap(new ConfigView(changeView));
         putViewInMap(new QuestionView(changeView));
         putViewInMap(new ResultView(changeView));
         addAllViewsToControlPanel();
         changeViewTo("Home");
         updateLanguage();
+        updateStyle();
     }
 
 
@@ -73,5 +76,9 @@ public class MainFrame extends JFrame {
 
     public void updateLanguage() {
         for (View view : views.values()) view.setContent(language);
+    }
+
+    public void updateStyle() {
+        for (View view : views.values()) view.setStyle(style);
     }
 }

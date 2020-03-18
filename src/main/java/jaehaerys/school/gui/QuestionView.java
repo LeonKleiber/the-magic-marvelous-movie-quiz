@@ -16,20 +16,19 @@ public class QuestionView extends View {
         setLayout(new GridLayout(5, 1));
 
         questionLbl = new JLabel("<html>My Question stays the Same what color is a Orange?</html>");
-        question(questionLbl);
 
         firstChoice = new JRadioButton("Purple");
-        radioBtn(firstChoice);
+
 
         secondChoice = new JRadioButton("Orange");
-        radioBtn(secondChoice);
+
 
         thirdChoice = new JRadioButton("Red");
-        radioBtn(thirdChoice);
+
 
         btnNext = new JButton();
         btnNext.addActionListener(changeView);
-        submitBtn(btnNext);
+
 
         add(questionLbl, BorderLayout.NORTH);
         add(firstChoice);
@@ -44,5 +43,15 @@ public class QuestionView extends View {
         JSONObject content = getContent(language);
 
         btnNext.setText((String) content.get("result"));
+    }
+
+    @Override
+    public void setStyle(Style style) {
+        style.pnl(this);
+        style.question(questionLbl);
+        style.rb(firstChoice);
+        style.rb(secondChoice);
+        style.rb(thirdChoice);
+        style.submit(btnNext);
     }
 }

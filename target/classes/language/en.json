@@ -1,39 +1,33 @@
 {
   "Home": {
-    "btnStart": "Start",
-    "btnSettings": "Settings"
+    "settings": "Settings"
   },
   "Settings": {
-    "darkModePnl": {
-      "lblTitle": "Dark Mode:",
-      "tbDarkMode": {
-        "lblOff": "Off",
-        "lblOn": "On"
-      }
-    },
-    "pnlLanguage": {
-      "lblTitle": "Language:"
-    },
-    "btnSubmit": "Submit"
+    "off": "Off",
+    "on": "On",
+    "language": "Language",
+    "home": "Home"
   },
   "Config": {
-    "pnlTopic": {
-      "lblTitle": "Topics"
-    },
-    "pnlDifficulty": {
-      "lblTitle": "Difficulty",
-      "easy": "Easy",
-      "medium": "Medium",
-      "hard": "Hard"
-    },
-    "btnSubmit": "Submit"
+    "topic": "Topics",
+    "difficulty": "Difficulty",
+    "easy": "Easy",
+    "medium": "Medium",
+    "hard": "Hard",
+    "submit": "Submit"
   },
   "Question": {
-    "btnNext": "Next Question",
-    "btnNextResult": "See Result"
+    "next": "Next Question",
+    "result": "See Result"
   },
   "Result": {
-    "btnRestart": "Restart"
-
+    "restart": "Restart"
+  },
+  "Title": {
+    "Home": "Home",
+    "Settings": "Settings",
+    "Config": "Config",
+    "Question": "Question",
+    "Result": "Result"
   }
 }

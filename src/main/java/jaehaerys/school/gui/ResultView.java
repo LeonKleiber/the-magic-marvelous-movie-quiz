@@ -19,7 +19,7 @@ public class ResultView extends View {
         setLayout(layout);
 
         slider = new JSlider(JSlider.HORIZONTAL, 0, 10, 8);
-        slider(slider);
+
 
         table = new JTable();
         Object[][] data = {
@@ -28,16 +28,13 @@ public class ResultView extends View {
 
         };
         table.setModel(new DefaultTableModel(data, new String[]{"Question Number", "Question", "Answer"}));
-        table(table);
+
 
         tableScrollBar = new JScrollPane(table);
-        tableScrollBar.getViewport().setBackground(BLACK);
-        tableScrollBar.setBackground(BLACK);
-        tableScrollBar.setBorder(NO_BORDER);
+
 
         btnRestart = new JButton();
         btnRestart.addActionListener(changeView);
-        bigBtn(btnRestart);
 
         add(slider);
         add(tableScrollBar);
@@ -49,5 +46,14 @@ public class ResultView extends View {
         JSONObject content = getContent(language);
 
         btnRestart.setText((String) content.get("restart"));
+    }
+
+    @Override
+    public void setStyle(Style style) {
+        style.pnl(this);
+        style.slider(slider);
+        style.table(table);
+        style.scrollPane(tableScrollBar);
+        style.submit(btnRestart);
     }
 }

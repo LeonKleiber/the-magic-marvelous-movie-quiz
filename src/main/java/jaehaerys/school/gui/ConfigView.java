@@ -19,22 +19,15 @@ public class ConfigView extends View {
 
         pnlTopic = new JPanel();
         pnlTopic.setLayout(new GridLayout(2, 1));
-        pnl(pnlTopic);
-
 
         lblTopic = new JLabel();
-        title(lblTopic);
 
         pnlRbTopic = new JPanel();
         pnlRbTopic.setLayout(new GridLayout(1, 3));
-        pnl(pnlRbTopic);
 
         rbMarvel = new JRadioButton("MCU");
-        radioBtn(rbMarvel);
         rbPotter = new JRadioButton("Harry Potter");
-        radioBtn(rbPotter);
         rbStarWars = new JRadioButton("Star Wars");
-        radioBtn(rbStarWars);
 
         pnlRbTopic.add(rbMarvel);
         pnlRbTopic.add(rbPotter);
@@ -46,22 +39,15 @@ public class ConfigView extends View {
 
         pnlDifficulty = new JPanel();
         pnlDifficulty.setLayout(new GridLayout(2, 1));
-        pnl(pnlDifficulty);
-
 
         lblDifficulty = new JLabel();
-        title(lblDifficulty);
 
         pnlRbDifficulty = new JPanel();
         pnlRbDifficulty.setLayout(new GridLayout(1, 3));
-        pnl(pnlRbDifficulty);
 
         rbEasy = new JRadioButton();
-        radioBtn(rbEasy);
         rbMedium = new JRadioButton("Medium");
-        radioBtn(rbMedium);
         rbHard = new JRadioButton("Hard");
-        radioBtn(rbHard);
 
         pnlRbDifficulty.add(rbEasy);
         pnlRbDifficulty.add(rbMedium);
@@ -74,7 +60,6 @@ public class ConfigView extends View {
 
         btnSubmit = new JButton("Submit");
         btnSubmit.addActionListener(this.changeView);
-        submitBtn(btnSubmit);
 
         add(pnlTopic);
         add(pnlDifficulty);
@@ -96,6 +81,25 @@ public class ConfigView extends View {
         rbMedium.setText((String) content.get("medium"));
         rbHard.setText((String) content.get("hard"));
         btnSubmit.setText((String) content.get("submit"));
+
+    }
+
+    @Override
+    public void setStyle(Style style) {
+        style.pnl(this);
+        style.pnl(pnlTopic);
+        style.title(lblTopic);
+        style.pnl(pnlRbTopic);
+        style.rb(rbMarvel);
+        style.rb(rbPotter);
+        style.rb(rbStarWars);
+        style.pnl(pnlDifficulty);
+        style.title(lblDifficulty);
+        style.pnl(pnlRbDifficulty);
+        style.rb(rbEasy);
+        style.rb(rbMedium);
+        style.rb(rbHard);
+        style.submit(btnSubmit);
 
     }
 }
