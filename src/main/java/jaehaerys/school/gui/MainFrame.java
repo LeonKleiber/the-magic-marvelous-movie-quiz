@@ -13,6 +13,7 @@ public class MainFrame extends JFrame {
     private CardLayout layout = new CardLayout();
     private Language language;
     private Style style;
+    private QuestionView questionView;
 
 
     public MainFrame() {
@@ -46,7 +47,8 @@ public class MainFrame extends JFrame {
         putViewInMap(new HomeView(changeView));
         putViewInMap(new SettingsView(changeView, language, style));
         putViewInMap(new ConfigView(changeView));
-        putViewInMap(new QuestionView(changeView));
+        questionView = new QuestionView(changeView);
+        putViewInMap(questionView);
         putViewInMap(new ResultView(changeView));
         addAllViewsToControlPanel();
         changeViewTo("Home");
@@ -59,6 +61,9 @@ public class MainFrame extends JFrame {
         layout.show(controlPanel, view);
         setTitle("The Magic Marvelous Movie Quiz - " + language.getViewContent("Title").get(view));
         setLocationRelativeTo(null);
+        if (view.equals("Question")) {
+            questionView.startQuestions((ResultView) views.get("Result"));
+        }
     }
 
 

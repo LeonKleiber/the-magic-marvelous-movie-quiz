@@ -1,12 +1,9 @@
 package jaehaerys.school.logic;
 
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
-import java.io.FileNotFoundException;
-
 import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+
 import java.io.FileReader;
-import java.io.IOException;
 
 public class JsonParser {
 
@@ -16,17 +13,11 @@ public class JsonParser {
     public static JSONObject getFileContent(String filename){
 
 
-        try (FileReader reader = new FileReader(filename))
-        {
+        try (FileReader reader = new FileReader(filename)) {
 
-            JSONObject content = (JSONObject) jsonParser.parse(reader);
-            return content;
+            return (JSONObject) jsonParser.parse(reader);
 
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (ParseException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
 

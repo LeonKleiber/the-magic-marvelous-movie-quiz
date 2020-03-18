@@ -2,6 +2,7 @@ package jaehaerys.school.gui;
 
 
 import jaehaerys.school.logic.JsonParser;
+import jaehaerys.school.logic.QuestionConfig;
 import org.json.simple.JSONObject;
 
 public class Language {
@@ -41,6 +42,7 @@ public class Language {
     }
 
     public void setLanguage(String language) {
+        QuestionConfig.setLanguage(language);
         if (!this.language.equals(language)) {
             changeLanguage();
             mF.updateLanguage();

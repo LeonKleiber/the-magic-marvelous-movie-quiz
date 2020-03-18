@@ -5,6 +5,7 @@ import org.json.simple.JSONObject;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
+import java.util.List;
 
 public class ResultView extends View {
 
@@ -12,6 +13,7 @@ public class ResultView extends View {
     JTable table;
     JScrollPane tableScrollBar;
     JButton btnRestart;
+    private Style style;
 
     public ResultView(ChangeView changeView) {
         super("Result", changeView);
@@ -22,14 +24,10 @@ public class ResultView extends View {
 
 
         table = new JTable();
-        Object[][] data = {
-            {"1", "What color is Thanos", "Purple"},
-            {"8", "How manny Avengers were in the first movie?", "6"},
-
-        };
-        table.setModel(new DefaultTableModel(data, new String[]{"Question Number", "Question", "Answer"}));
-
-
+        table.setModel(new DefaultTableModel(new String[][]{
+            {"1"}, {"1"}, {"1"}
+        },
+            new String[]{"Question Number", "Question", "Answer"}));
         tableScrollBar = new JScrollPane(table);
 
 
@@ -50,10 +48,29 @@ public class ResultView extends View {
 
     @Override
     public void setStyle(Style style) {
+        this.style = style;
         style.pnl(this);
         style.slider(slider);
         style.table(table);
         style.scrollPane(tableScrollBar);
         style.submit(btnRestart);
+    }
+
+    public void setData(List<String[]> falseAnswers) {
+
+        slider.setValue(10 - falseAnswers.size());
+
+        String[][] tableData = new String[falseAnswers.size()][3];
+        int i = 0;
+        for (String[] falseAnswer : falseAnswers) {
+            tableData[i] = falseAnswer;
+            i++;
+        }
+
+
+        table.setModel(new DefaultTableModel(tableData,
+            new String[]{"Question Number", "Question", "Answer"}));
+
+        style.table(table);
     }
 }

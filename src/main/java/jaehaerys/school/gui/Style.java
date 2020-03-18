@@ -4,13 +4,15 @@ package jaehaerys.school.gui;
 import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.border.EmptyBorder;
-import javax.swing.border.LineBorder;
 import java.awt.*;
 
 public class Style {
 
     private final Color BLACK = new Color(30, 30, 30);
+    private final Color RED = new Color(100, 30, 30);
     private final Color WHITE = new Color(190, 190, 190);
+    private final Color BLUE = new Color(30, 30, 100);
+
     // Border
     private final Border NO_BORDER = new EmptyBorder(0, 0, 0, 0);
     // Font Size
@@ -19,14 +21,14 @@ public class Style {
     private final int SMALL = 15;
     private Color background;
     private Color foreground;
-    private Border THIN_BORDER;
+    private Color selectedRb;
     private boolean darkMode;
     private MainFrame mF;
 
     public Style(MainFrame mF) {
         background = BLACK;
         foreground = WHITE;
-        THIN_BORDER = new LineBorder(foreground, 1);
+        selectedRb = RED;
         darkMode = true;
         this.mF = mF;
 
@@ -44,11 +46,12 @@ public class Style {
         if (darkMode) {
             background = BLACK;
             foreground = WHITE;
+            selectedRb = RED;
         } else {
             background = WHITE;
             foreground = BLACK;
+            selectedRb = BLUE;
         }
-        THIN_BORDER = new LineBorder(foreground, 1);
         mF.updateStyle();
     }
 
@@ -129,11 +132,12 @@ public class Style {
         table.setBackground(background);
 
         table.setGridColor(foreground);
-        table.setBorder(THIN_BORDER);
-        table.getColumnModel().getColumn(0).setPreferredWidth(10);
+        table.setBorder(NO_BORDER);
+        table.getColumnModel().getColumn(0).setPreferredWidth(20);
         table.getColumnModel().getColumn(1).setPreferredWidth(400);
         table.getColumnModel().getColumn(2).setPreferredWidth(90);
         table.setRowHeight(50);
+        table.setGridColor(background);
         table.setTableHeader(null);
         table.setEnabled(false);
     }
@@ -142,6 +146,7 @@ public class Style {
     void scrollPane(JScrollPane scroll) {
         defaultStyle(scroll);
         scroll.getViewport().setBackground(background);
+        scroll.getViewport().getView().setBackground(background);
         scroll.setBorder(NO_BORDER);
     }
 

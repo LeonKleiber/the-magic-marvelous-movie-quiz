@@ -118,6 +118,7 @@ public class SettingsView extends View implements ActionListener {
         if (rbEnglish.isSelected()) language = "en";
         else language = "de";
 
+
         this.language.setLanguage(language);
 
         if (toggleSwitch.isDarkMode()) style.setMode(true);

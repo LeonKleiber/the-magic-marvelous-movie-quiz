@@ -1,11 +1,14 @@
 package jaehaerys.school.gui;
 
+import jaehaerys.school.logic.QuestionConfig;
 import org.json.simple.JSONObject;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-public class ConfigView extends View {
+public class ConfigView extends View implements ActionListener {
 
     private JPanel pnlTopic, pnlDifficulty, pnlRbTopic, pnlRbDifficulty;
     private JButton btnSubmit;
@@ -59,7 +62,7 @@ public class ConfigView extends View {
 
 
         btnSubmit = new JButton("Submit");
-        btnSubmit.addActionListener(this.changeView);
+        btnSubmit.addActionListener(this);
 
         add(pnlTopic);
         add(pnlDifficulty);
@@ -101,5 +104,31 @@ public class ConfigView extends View {
         style.rb(rbHard);
         style.submit(btnSubmit);
 
+    }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        String topic = "";
+        if (rbMarvel.isSelected()) {
+            topic = "mcu";
+        } else if (rbPotter.isSelected()) {
+            topic = "hp";
+        } else if (rbStarWars.isSelected()) {
+            topic = "sw";
+        }
+        int difficulty = 0;
+        if (rbEasy.isSelected()) {
+            difficulty = 1;
+        } else if (rbMedium.isSelected()) {
+            difficulty = 2;
+        } else if (rbHard.isSelected()) {
+            difficulty = 3;
+        }
+
+        if (!topic.equals("") && difficulty != 0) {
+            QuestionConfig.setTopic(topic);
+            QuestionConfig.setLevel(difficulty);
+            changeView.actionPerformed(e);
+        }
     }
 }
