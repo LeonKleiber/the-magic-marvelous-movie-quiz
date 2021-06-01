@@ -23,8 +23,8 @@ public class Language {
     }
 
     private void load() {
-        de = JsonParser.getFileContent("/Users/jaehaerys/src/school/modul_120/Projektarbeit/Teil 3/theMagicMarvelousMovieQuiz/src/main/resources/language/de.json");
-        en = JsonParser.getFileContent("/Users/jaehaerys/src/school/modul_120/Projektarbeit/Teil 3/theMagicMarvelousMovieQuiz/src/main/resources/language/en.json");
+        de = JsonParser.getFileContent("src/main/resources/language/de.json");
+        en = JsonParser.getFileContent("src/main/resources/language/en.json");
     }
 
     private void changeLanguage() {

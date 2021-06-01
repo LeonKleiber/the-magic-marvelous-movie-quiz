@@ -1,6 +1,7 @@
 package jaehaerys.school.gui;
 
 import jaehaerys.school.logic.QuestionConfig;
+import jaehaerys.school.logic.SelectRb;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
@@ -25,9 +26,12 @@ public class QuestionView extends View implements ActionListener {
     private ButtonGroup bgOptions;
     private String question;
     private ResultView resultView;
+    private SelectRb selectRb;
 
-    public QuestionView(ChangeView changeView) {
+    public QuestionView(ChangeView changeView, Style style) {
         super("Question", changeView);
+
+        selectRb = new SelectRb(style, this);
 
         setLayout(new GridLayout(5, 1));
 
@@ -36,8 +40,13 @@ public class QuestionView extends View implements ActionListener {
         bgOptions = new ButtonGroup();
 
         firstChoice = new JRadioButton();
+        firstChoice.addActionListener(selectRb);
+
         secondChoice = new JRadioButton();
+        secondChoice.addActionListener(selectRb);
+
         thirdChoice = new JRadioButton();
+        thirdChoice.addActionListener(selectRb);
 
         bgOptions.add(firstChoice);
         bgOptions.add(secondChoice);
@@ -66,13 +75,9 @@ public class QuestionView extends View implements ActionListener {
         btnNext.setText((String) content.get("next"));
     }
 
-    private void checkQuestion() {
+    private void checkQuestion(JRadioButton selection) {
         boolean answer = false;
-        if (
-            firstChoice.getText().equals(rightOption) && firstChoice.isSelected() ||
-                secondChoice.getText().equals(rightOption) && secondChoice.isSelected() ||
-                thirdChoice.getText().equals(rightOption) && thirdChoice.isSelected()
-        ) {
+        if (selection.getText().substring(14, selection.getText().length()-7).equals(rightOption)) {
             answer = true;
         }
 
@@ -96,21 +101,21 @@ public class QuestionView extends View implements ActionListener {
         if ((boolean) firstOption.get("correct")) {
             rightOption = firstText;
         }
-        firstChoice.setText(firstText);
+        firstChoice.setText("<html><center>" + firstText+ "</html>");
 
         JSONObject secondOption = (JSONObject) options.get(1);
         String secondText = (String) secondOption.get("choice");
         if ((boolean) secondOption.get("correct")) {
             rightOption = secondText;
         }
-        secondChoice.setText(secondText);
+        secondChoice.setText("<html><center>" + secondText+ "</html>");
 
         JSONObject thirdOption = (JSONObject) options.get(2);
         String thirdText = (String) thirdOption.get("choice");
         if ((boolean) thirdOption.get("correct")) {
             rightOption = thirdText;
         }
-        thirdChoice.setText(thirdText);
+        thirdChoice.setText("<html><center>" + thirdText+ "</html>");
     }
 
     @Override
@@ -135,9 +140,11 @@ public class QuestionView extends View implements ActionListener {
     public void actionPerformed(ActionEvent e) {
 
         if (null != bgOptions.getSelection()) {
-            checkQuestion();
+            checkQuestion((firstChoice.isSelected()?firstChoice:(secondChoice.isSelected()?secondChoice:thirdChoice)));
+
             if (questionCounter < 10) {
                 nextQuestion();
+                selectRb.actionPerformed(e);
                 if (questionCounter == 10) {
                     btnNext.setText((String) content.get("result"));
                 }

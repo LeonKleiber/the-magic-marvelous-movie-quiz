@@ -46,8 +46,8 @@ public class MainFrame extends JFrame {
         ChangeView changeView = new ChangeView(this);
         putViewInMap(new HomeView(changeView));
         putViewInMap(new SettingsView(changeView, language, style));
-        putViewInMap(new ConfigView(changeView));
-        questionView = new QuestionView(changeView);
+        putViewInMap(new ConfigView(changeView, style));
+        questionView = new QuestionView(changeView, style);
         putViewInMap(questionView);
         putViewInMap(new ResultView(changeView));
         addAllViewsToControlPanel();

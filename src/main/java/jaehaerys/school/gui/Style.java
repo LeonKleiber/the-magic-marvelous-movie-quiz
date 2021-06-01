@@ -46,12 +46,11 @@ public class Style {
         if (darkMode) {
             background = BLACK;
             foreground = WHITE;
-            selectedRb = RED;
         } else {
             background = WHITE;
             foreground = BLACK;
-            selectedRb = BLUE;
         }
+        selectedRb = RED;
         mF.updateStyle();
     }
 
@@ -109,6 +108,10 @@ public class Style {
         setFontSize(rb, MEDIUM);
         centerRadioBtn(rb);
         defaultStyle(rb);
+        rb.setIcon(new ImageIcon());
+        if( rb.isSelected()){
+            rb.setForeground(RED);
+        }
     }
 
 
@@ -158,5 +161,13 @@ public class Style {
     private void defaultStyle(JComponent component) {
         component.setForeground(foreground);
         component.setBackground(background);
+    }
+
+    public Color getForeground() {
+        return foreground;
+    }
+
+    public Color getSelectedRb() {
+        return selectedRb;
     }
 }

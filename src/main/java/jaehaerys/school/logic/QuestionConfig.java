@@ -12,7 +12,7 @@ public class QuestionConfig {
     private static String language = "en";
 
     public static void setTopic(String t) {
-        if (t.equals("mcu") || t.equals("sw") || t.equals("hp")) topic = t;
+        if (t.equals("mcu") || t.equals("hp")) topic = t;
 
     }
 
@@ -25,7 +25,7 @@ public class QuestionConfig {
     }
 
     public List<JSONObject> loadQuestion() {
-        JSONObject allQuestions = JsonParser.getFileContent("/Users/jaehaerys/src/school/modul_120/Projektarbeit/Teil 3/theMagicMarvelousMovieQuiz/src/main/resources/questions/" + topic + ".json");
+        JSONObject allQuestions = JsonParser.getFileContent("src/main/resources/questions/" + topic + ".json");
         JSONArray questions = (JSONArray) allQuestions.get(language);
         List<JSONObject> questionOfOneLevel = new ArrayList<>();
         for (Object o : questions) {

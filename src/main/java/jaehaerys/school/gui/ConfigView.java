@@ -1,6 +1,7 @@
 package jaehaerys.school.gui;
 
 import jaehaerys.school.logic.QuestionConfig;
+import jaehaerys.school.logic.SelectRb;
 import org.json.simple.JSONObject;
 
 import javax.swing.*;
@@ -13,10 +14,10 @@ public class ConfigView extends View implements ActionListener {
     private JPanel pnlTopic, pnlDifficulty, pnlRbTopic, pnlRbDifficulty;
     private JButton btnSubmit;
     private JLabel lblTopic, lblDifficulty;
-    private JRadioButton rbMarvel, rbPotter, rbStarWars, rbEasy, rbMedium, rbHard;
+    private JRadioButton rbMarvel, rbPotter, rbEasy, rbMedium, rbHard;
 
 
-    public ConfigView(ChangeView changeView) {
+    public ConfigView(ChangeView changeView, Style style) {
         super("Config", changeView);
         setLayout(new GridLayout(3, 1));
 
@@ -29,13 +30,13 @@ public class ConfigView extends View implements ActionListener {
         pnlRbTopic.setLayout(new GridLayout(1, 3));
 
         rbMarvel = new JRadioButton("MCU");
+        rbMarvel.addActionListener(new SelectRb(style,this));
         rbPotter = new JRadioButton("Harry Potter");
-        rbStarWars = new JRadioButton("Star Wars");
+        rbPotter.addActionListener(new SelectRb(style,this));
 
         pnlRbTopic.add(rbMarvel);
         pnlRbTopic.add(rbPotter);
-        pnlRbTopic.add(rbStarWars);
-        createButtonGroup(new JRadioButton[]{rbMarvel, rbPotter, rbStarWars});
+        createButtonGroup(new JRadioButton[]{rbMarvel, rbPotter});
 
         pnlTopic.add(lblTopic);
         pnlTopic.add(pnlRbTopic);
@@ -49,8 +50,11 @@ public class ConfigView extends View implements ActionListener {
         pnlRbDifficulty.setLayout(new GridLayout(1, 3));
 
         rbEasy = new JRadioButton();
+        rbEasy.addActionListener(new SelectRb(style,this));
         rbMedium = new JRadioButton("Medium");
+        rbMedium.addActionListener(new SelectRb(style,this));
         rbHard = new JRadioButton("Hard");
+        rbHard.addActionListener(new SelectRb(style,this));
 
         pnlRbDifficulty.add(rbEasy);
         pnlRbDifficulty.add(rbMedium);
@@ -95,7 +99,6 @@ public class ConfigView extends View implements ActionListener {
         style.pnl(pnlRbTopic);
         style.rb(rbMarvel);
         style.rb(rbPotter);
-        style.rb(rbStarWars);
         style.pnl(pnlDifficulty);
         style.title(lblDifficulty);
         style.pnl(pnlRbDifficulty);
@@ -113,8 +116,6 @@ public class ConfigView extends View implements ActionListener {
             topic = "mcu";
         } else if (rbPotter.isSelected()) {
             topic = "hp";
-        } else if (rbStarWars.isSelected()) {
-            topic = "sw";
         }
         int difficulty = 0;
         if (rbEasy.isSelected()) {

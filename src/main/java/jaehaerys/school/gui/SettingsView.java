@@ -1,5 +1,6 @@
 package jaehaerys.school.gui;
 
+import jaehaerys.school.logic.SelectRb;
 import org.json.simple.JSONObject;
 
 import javax.swing.*;
@@ -60,10 +61,10 @@ public class SettingsView extends View implements ActionListener {
 
         rbEnglish = new JRadioButton("English");
         rbEnglish.setSelected(true);
-
+        rbEnglish.addActionListener(new SelectRb(this.style, this));
 
         rbGerman = new JRadioButton("Deutsch");
-
+        rbGerman.addActionListener(new SelectRb(this.style, this));
 
         makeRadioButtonGroup();
 
